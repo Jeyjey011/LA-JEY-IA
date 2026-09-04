@@ -1,17 +1,11 @@
 {
-  "version": "1.7.0",
+  "version": "1.7.1",
   "fecha": "2026-09-04",
-  "titulo": "Imagenes con tu frasco real y laminas con texto, como tiene que ser",
+  "titulo": "Publicar ya no toca tu app",
   "notas": [
-    "Nuevo hueco en el paso 1: la FOTO REAL del producto. Va de referencia en toda imagen donde aparece, y el frasco es el tuyo, no uno inventado",
-    "Las laminas de diseno llevan TEXTO encima: titular, cifras, pasos y regalos salen de la copy real de la landing",
-    "Cuatro laminas de hero con trabajo propio: portada, prueba social, como actua y por que si",
-    "Tres laminas de regalo con su cartel: envio gratis, guia y descuento",
-    "El prompt lo escribe Claude Opus. Candado de identidad delante, sin describir el frasco, corto: lo que aprendio LA FRAGUA pagando generaciones",
-    "gpt-image-2 tiene 6 minutos cuando lleva referencia: con 3 se rendia justo antes de acabar",
-    "Probado con dinero real: portada, regalo y foto de antes salen como las de referencia"
+    "Al publicar, los ejecutables se compilan en .publicar/ y no en tu carpeta: tu app no cambia hasta que le des a Version"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.7.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.7.0/LANDING-AI-1.7.0.zip",
-  "bytes": 77507060
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.7.1",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.7.1/LANDING-AI-1.7.1.zip",
+  "bytes": 77507062
 }
