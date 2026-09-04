@@ -1,15 +1,16 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "fecha": "2026-09-04",
-  "titulo": "Guardado, carpetas y un fallo que borraba imagenes",
+  "titulo": "Guardado, carpetas y el fallo que borraba imagenes",
   "notas": [
-    "ARREGLADO: poner una imagen y volver a Textos la borraba. El editor guardaba una copia vieja de la configuracion encima de la buena",
+    "ARREGLADO: poner una imagen y volver a Textos la borraba. El editor guardaba encima una copia vieja de la configuracion",
+    "ARREGLADO: la vista previa refresca de verdad y vuelve al punto donde estabas, en vez de saltar arriba",
     "Boton Guardar y Ctrl+S para archivar el proyecto cuando quieras",
     "Archivado automatico cada dos minutos y tambien al cerrar la ventana",
     "Aviso de guardado en la cabecera: se ve si lo ultimo que escribiste esta a salvo",
     "Boton Carpeta: abre la del proyecto, las imagenes, lo exportado o los proyectos guardados"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.4.1",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.4.1/LANDING-AI-1.4.1.zip",
-  "bytes": 77494768
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.4.2",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.4.2/LANDING-AI-1.4.2.zip",
+  "bytes": 77495064
 }
