@@ -1,14 +1,16 @@
 {
-  "version": "1.8.0",
+  "version": "1.9.0",
   "fecha": "2026-09-04",
-  "titulo": "El antes y despues sale de lo que dice la clienta",
+  "titulo": "Video de resena, iconos con estilo y proporciones auditadas",
   "notas": [
-    "El antes y despues de WhatsApp es UNA sola foto 1:1: antes a la izquierda, despues a la derecha, la misma mujer, hecha con seedream. Va dentro del chat, sin seccion aparte",
-    "El prompt se escribe LEYENDO el mensaje que acompana la foto: si ella dice que mire como le queda el jean, sale con el jean puesto, no en ropa interior",
-    "Regla de cuerpo: brazos y hombros femeninos, lo unico con volumen son piernas, gluteos y busto, cintura y abdomen tres veces mas pequenos, reloj de arena",
-    "Publicar ya no toca tu app: los ejecutables se compilan en .publicar/"
+    "La resena en video ya se genera desde la app: seedream saca el fotograma con ella sosteniendo TU frasco, seedance lo anima hablando en espanol colombiano",
+    "ARREGLADO: una tarea de video no devuelve images sino videos, y el codigo moria con un error que no decia nada",
+    "Toma continua en todos los videos: sin esa linea el modelo se inventa un corte a media frase",
+    "Antes y despues y foto de resena pasan a vertical y cuadrada: un cuerpo de pie en horizontal se recortaba por la cintura",
+    "Iconos con estilo: linea, plano, 3D, claymation o Pixar. El candado de estilo va al principio Y al final, que es donde pesa",
+    "Ajustes nuevo: estilo de iconos, modelo de video y segundos"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.8.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.8.0/LANDING-AI-1.8.0.zip",
-  "bytes": 77508966
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.9.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.9.0/LANDING-AI-1.9.0.zip",
+  "bytes": 77513081
 }
