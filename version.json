@@ -1,15 +1,15 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "fecha": "2026-09-04",
-  "titulo": "Cerebro compartido y auto-actualizacion",
+  "titulo": "Ventana nativa, sin navegador",
   "notas": [
-    "La app se actualiza sola desde la nube, sin necesidad de token",
-    "Cerebro compartido: lo que le funciono a los demas, ordenado por tu nicho",
-    "Borrar proyectos, con copia de seguridad en la papelera",
-    "Exportacion a .gempages nativo",
-    "El campo del token comprueba contra GitHub antes de guardar"
+    "Ventana de Windows propia con WebView2: se acabaron las ventanas de navegador que se acumulaban",
+    "Icono de fuego propio en la barra de tareas",
+    "Sin barra de direcciones, sin pestanas, sin menu del navegador",
+    "Los enlaces externos abren en tu navegador, no dentro de la app",
+    "Al cerrar la ventana se apaga el motor: no quedan procesos sueltos"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.1.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.1.0/LANDING-AI-1.1.0.zip",
-  "bytes": 34817319
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.2.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.2.0/LANDING-AI-1.2.0.zip",
+  "bytes": 77489083
 }
