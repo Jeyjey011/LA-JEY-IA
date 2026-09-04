@@ -1,14 +1,15 @@
 {
-  "version": "1.3.2",
+  "version": "1.4.0",
   "fecha": "2026-09-04",
-  "titulo": "Botones planos y legibles",
+  "titulo": "Pagina mas rapida y imagenes al tamano justo",
   "notas": [
-    "Botones del constructor sin degradados, brillos ni saltos: color solido y texto de alto contraste",
-    "Naranja solido para la accion principal, verde para confirmar, borde limpio para el resto",
-    "Se conserva el anillo de carga, que informa de algo real",
-    "Los botones de la landing no cambian"
+    "El .gempages sale en UNA sola seccion: nada que se pueda separar y el navegador recibe un solo style y un solo script",
+    "Arreglado el fallo que dejaba la pagina en texto pelado al deslizar",
+    "Anchos de imagen medidos sobre la landing real, no a ojo: 49% menos peso",
+    "Las resenas en video se guardan en 9:16, su proporcion de verdad",
+    "Toda imagen generada pasa por WebP y por la proporcion exacta de su hueco"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.3.2",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.3.2/LANDING-AI-1.3.2.zip",
-  "bytes": 77492154
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.4.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.4.0/LANDING-AI-1.4.0.zip",
+  "bytes": 77492878
 }
