@@ -1,15 +1,15 @@
 {
-  "version": "1.15.0",
+  "version": "1.16.0",
   "fecha": "2026-09-04",
-  "titulo": "La biblioteca de prompts",
+  "titulo": "El catalogo de antes y despues",
   "notas": [
-    "Las formulas de imagen y video salen de tu Biblioteca de prompts, no escritas a ojo",
-    "El cerebro comparte esas formulas: cerebro/formulas.json, generado desde el mismo codigo",
-    "En el DESPUES la modelo sale guapa, no solo delgada: piel luminosa, maquillaje natural, pelo arreglado",
-    "La lamina de zonas lleva un rotulo corto por panel (SENOS PLANOS, ROLLITOS) sacado de las zonas que tienes en Ajustes",
-    "Luz calida sin focos naranjas encima del cuerpo"
+    "Los huecos de antes y despues traen boton de catalogo: eliges una de las fotos que ya vienen en la app y queda puesta de un clic",
+    "Sin generar, sin esperar y sin gastar: esas fotos ya estan elegidas por ti",
+    "La lamina de zonas sale sin una letra y los rotulos los pinta la seccion encima, con la ortografia bien",
+    "Seis zonas en rejilla de 2 por 3, cada rotulo sobre su panel",
+    "Cuando Claude no puede escribir el prompt, el log dice el motivo de verdad"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.15.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.15.0/LANDING-AI-1.15.0.zip",
-  "bytes": 77548601
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.16.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.16.0/LANDING-AI-1.16.0.zip",
+  "bytes": 77551790
 }
