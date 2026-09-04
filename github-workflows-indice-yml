@@ -1,0 +1,39 @@
+name: Reconstruir el indice del cerebro
+
+on:
+  push:
+    paths:
+      - 'cerebro/aportes/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  indice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Juntar los aportes
+        run: |
+          node -e '
+            const fs = require("fs");
+            const dir = "cerebro/aportes";
+            if (!fs.existsSync(dir)) { fs.mkdirSync(dir, { recursive: true }); }
+            const aportes = fs.readdirSync(dir)
+              .filter((f) => f.endsWith(".json"))
+              .map((f) => { try { return JSON.parse(fs.readFileSync(dir + "/" + f, "utf8")); } catch { return null; } })
+              .filter(Boolean)
+              .sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
+            fs.writeFileSync("cerebro/indice.json", JSON.stringify(aportes));
+            console.log(aportes.length + " aportes en el indice");
+          '
+
+      - name: Publicar el indice
+        run: |
+          git config user.name  "cerebro"
+          git config user.email "cerebro@users.noreply.github.com"
+          git add cerebro/indice.json
+          git diff --staged --quiet || git commit -m "cerebro: indice al dia"
+          git push
