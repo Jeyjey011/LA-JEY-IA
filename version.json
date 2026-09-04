@@ -1,15 +1,15 @@
 {
-  "version": "1.4.0",
+  "version": "1.4.1",
   "fecha": "2026-09-04",
-  "titulo": "Pagina mas rapida y imagenes al tamano justo",
+  "titulo": "Guardado, carpetas y un fallo que borraba imagenes",
   "notas": [
-    "El .gempages sale en UNA sola seccion: nada que se pueda separar y el navegador recibe un solo style y un solo script",
-    "Arreglado el fallo que dejaba la pagina en texto pelado al deslizar",
-    "Anchos de imagen medidos sobre la landing real, no a ojo: 49% menos peso",
-    "Las resenas en video se guardan en 9:16, su proporcion de verdad",
-    "Toda imagen generada pasa por WebP y por la proporcion exacta de su hueco"
+    "ARREGLADO: poner una imagen y volver a Textos la borraba. El editor guardaba una copia vieja de la configuracion encima de la buena",
+    "Boton Guardar y Ctrl+S para archivar el proyecto cuando quieras",
+    "Archivado automatico cada dos minutos y tambien al cerrar la ventana",
+    "Aviso de guardado en la cabecera: se ve si lo ultimo que escribiste esta a salvo",
+    "Boton Carpeta: abre la del proyecto, las imagenes, lo exportado o los proyectos guardados"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.4.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.4.0/LANDING-AI-1.4.0.zip",
-  "bytes": 77492878
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.4.1",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.4.1/LANDING-AI-1.4.1.zip",
+  "bytes": 77494768
 }
