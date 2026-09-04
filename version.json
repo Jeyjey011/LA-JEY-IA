@@ -1,11 +1,14 @@
 {
-  "version": "1.7.1",
+  "version": "1.8.0",
   "fecha": "2026-09-04",
-  "titulo": "Publicar ya no toca tu app",
+  "titulo": "El antes y despues sale de lo que dice la clienta",
   "notas": [
-    "Al publicar, los ejecutables se compilan en .publicar/ y no en tu carpeta: tu app no cambia hasta que le des a Version"
+    "El antes y despues de WhatsApp es UNA sola foto 1:1: antes a la izquierda, despues a la derecha, la misma mujer, hecha con seedream. Va dentro del chat, sin seccion aparte",
+    "El prompt se escribe LEYENDO el mensaje que acompana la foto: si ella dice que mire como le queda el jean, sale con el jean puesto, no en ropa interior",
+    "Regla de cuerpo: brazos y hombros femeninos, lo unico con volumen son piernas, gluteos y busto, cintura y abdomen tres veces mas pequenos, reloj de arena",
+    "Publicar ya no toca tu app: los ejecutables se compilan en .publicar/"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.7.1",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.7.1/LANDING-AI-1.7.1.zip",
-  "bytes": 77507062
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.8.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.8.0/LANDING-AI-1.8.0.zip",
+  "bytes": 77508966
 }
