@@ -1,16 +1,12 @@
 {
-  "version": "1.9.0",
+  "version": "1.9.1",
   "fecha": "2026-09-04",
-  "titulo": "Video de resena, iconos con estilo y proporciones auditadas",
+  "titulo": "El frasco sale limpio, sin el adhesivo de promocion",
   "notas": [
-    "La resena en video ya se genera desde la app: seedream saca el fotograma con ella sosteniendo TU frasco, seedance lo anima hablando en espanol colombiano",
-    "ARREGLADO: una tarea de video no devuelve images sino videos, y el codigo moria con un error que no decia nada",
-    "Toma continua en todos los videos: sin esa linea el modelo se inventa un corte a media frase",
-    "Antes y despues y foto de resena pasan a vertical y cuadrada: un cuerpo de pie en horizontal se recortaba por la cintura",
-    "Iconos con estilo: linea, plano, 3D, claymation o Pixar. El candado de estilo va al principio Y al final, que es donde pesa",
-    "Ajustes nuevo: estilo de iconos, modelo de video y segundos"
+    "El candado decia identical, zero changes y el modelo copiaba fielmente el adhesivo COMPRA 1 + OBSEQUIO que lleva pegado la foto de referencia",
+    "Ahora se dice explicitamente que los adhesivos, sellos de descuento y etiquetas de precio NO son parte del producto: sale como se vende"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.9.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.9.0/LANDING-AI-1.9.0.zip",
-  "bytes": 77513081
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.9.1",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.9.1/LANDING-AI-1.9.1.zip",
+  "bytes": 77513241
 }
