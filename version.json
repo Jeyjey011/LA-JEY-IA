@@ -1,15 +1,15 @@
 {
-  "version": "1.16.0",
+  "version": "1.17.0",
   "fecha": "2026-09-04",
-  "titulo": "El catalogo de antes y despues",
+  "titulo": "El estudio de cara y cuerpo",
   "notas": [
-    "Los huecos de antes y despues traen boton de catalogo: eliges una de las fotos que ya vienen en la app y queda puesta de un clic",
-    "Sin generar, sin esperar y sin gastar: esas fotos ya estan elegidas por ti",
-    "La lamina de zonas sale sin una letra y los rotulos los pinta la seccion encima, con la ortografia bien",
-    "Seis zonas en rejilla de 2 por 3, cada rotulo sobre su panel",
-    "Cuando Claude no puede escribir el prompt, el log dice el motivo de verdad"
+    "Paso nuevo Estudio: eliges una cara y un cuerpo y sale esa persona con ese cuerpo",
+    "Sirve para que sea la MISMA mujer en el antes, el despues, los testimonios y el video",
+    "Los cuerpos salen del catalogo que ya viene en la app, no se generan",
+    "El antes ya no es fijo: se elige por producto (delgada, con sobrepeso, sin tono, o ninguno)",
+    "El BBL no engorda: da forma. La cintura, brazos y cara siguen igual o mas pequenos"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.16.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.16.0/LANDING-AI-1.16.0.zip",
-  "bytes": 77551790
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.17.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.17.0/LANDING-AI-1.17.0.zip",
+  "bytes": 77556732
 }
