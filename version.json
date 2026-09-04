@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "fecha": "2026-09-04",
+  "titulo": "Primera versión",
+  "notas": [
+    "Constructor guiado en 9 pasos",
+    "Redactor de copy con IA",
+    "Generacion y optimizacion de imagenes",
+    "Exportacion a .gempages nativo",
+    "Auditoria de conversion sin filtros",
+    "Cerebro compartido y buscador de actualizaciones"
+  ],
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/latest"
+}
