@@ -1,17 +1,15 @@
 {
-  "version": "1.5.0",
+  "version": "1.5.1",
   "fecha": "2026-09-04",
-  "titulo": "Claude piensa, APIMART fabrica, y todo se configura en un solo sitio",
+  "titulo": "El redactor ya funciona: Claude escribe la landing entera",
   "notas": [
-    "Claude se encarga de redactar la landing y de auditarla. Se habla directo con Anthropic, sin intermediarios",
-    "APIMART se queda solo con lo suyo: imagenes y video",
-    "Nueva tuerca de Ajustes en la cabecera: las dos claves, el modelo, el cerebro y Shopify, todo junto",
-    "Cada bloque de Ajustes tiene su lucecita: verde si esta puesto, apagada si falta",
-    "La clave de Claude se comprueba contra Anthropic antes de guardarse",
-    "El paso 1 avisa que clave falta y ofrece el atajo",
-    "El verificador ahora caza los manejadores huerfanos antes de empaquetar: ese fallo tumbo la app tres veces"
+    "ARREGLADO: se enviaba temperature, que quedo obsoleto en los modelos Claude 5, y la API respondia 400",
+    "ARREGLADO: el manejo de errores adivinaba la causa por una palabra suelta y acusaba al modelo de no existir cuando el fallo era otro. Ahora se muestra lo que dice Anthropic, tal cual",
+    "La redaccion va en tandas de 45 campos: si una falla, el resto entra igual",
+    "Si una respuesta se corta por el limite de tokens, lo dice con esas palabras en vez de reventar con un JSON roto",
+    "La lista de modelos es la que devuelve tu cuenta, no una inventada"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.5.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.5.0/LANDING-AI-1.5.0.zip",
-  "bytes": 77500394
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.5.1",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.5.1/LANDING-AI-1.5.1.zip",
+  "bytes": 77500807
 }
