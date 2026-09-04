@@ -1,17 +1,14 @@
 {
-  "version": "1.3.1",
+  "version": "1.3.2",
   "fecha": "2026-09-04",
-  "titulo": "Icono propio, barra oscura y brasa por toda la app",
+  "titulo": "Botones planos y legibles",
   "notas": [
-    "Icono de fuego en la ventana y en la barra de tareas",
-    "Barra de titulo oscura: se acabo la franja blanca sobre la app negra",
-    "El anillo de fuego de la actualizacion, ahora en botones, pasos y barra de avance",
-    "Ceniza subiendo detras del panel de pasos",
-    "El boton de la cabecera descarga el .gempages directamente",
-    "Fuera el boton de publicar en Shopify: no publicaba nada",
-    "Arreglada la auto-actualizacion: no llegaba a ejecutarse y se quedaba a medias"
+    "Botones del constructor sin degradados, brillos ni saltos: color solido y texto de alto contraste",
+    "Naranja solido para la accion principal, verde para confirmar, borde limpio para el resto",
+    "Se conserva el anillo de carga, que informa de algo real",
+    "Los botones de la landing no cambian"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.3.1",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.3.1/LANDING-AI-1.3.1.zip",
-  "bytes": 77491370
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.3.2",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.3.2/LANDING-AI-1.3.2.zip",
+  "bytes": 77492154
 }
