@@ -1,15 +1,16 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "fecha": "2026-09-04",
   "titulo": "Ventana nativa, sin navegador",
   "notas": [
-    "Ventana de Windows propia con WebView2: se acabaron las ventanas de navegador que se acumulaban",
+    "Ventana de Windows propia con WebView2: se acabaron las ventanas de navegador acumuladas",
     "Icono de fuego propio en la barra de tareas",
     "Sin barra de direcciones, sin pestanas, sin menu del navegador",
     "Los enlaces externos abren en tu navegador, no dentro de la app",
-    "Al cerrar la ventana se apaga el motor: no quedan procesos sueltos"
+    "Al cerrar la ventana se apaga el motor: no quedan procesos sueltos",
+    "Las actualizaciones se leen de la Release, no del CDN: se ven al instante"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.2.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.2.0/LANDING-AI-1.2.0.zip",
-  "bytes": 77489083
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.2.1",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.2.1/LANDING-AI-1.2.1.zip",
+  "bytes": 77489408
 }
