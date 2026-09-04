@@ -1,13 +1,15 @@
 {
-  "version": "1.11.0",
+  "version": "1.12.0",
   "fecha": "2026-09-04",
-  "titulo": "La app deja de cambiar sola: la interfaz va dentro del ejecutable",
+  "titulo": "Problema y contraste dejan de ser flojos",
   "notas": [
-    "ARREGLADO DE RAIZ: el servidor leia editor/ del disco en cada arranque, asi que cualquier cambio en la interfaz aparecia en tu app sin que actualizaras. El .exe seguia igual byte a byte, pero la pantalla cambiaba",
-    "Ahora la interfaz viaja empotrada dentro del ejecutable: la app es lo que instalaste, y solo cambia cuando pulsas Version",
-    "editor/ ya no se copia suelto en el paquete, para que no vuelva a colarse"
+    "PROBLEMA: la imagen tiene que doler. Una sola idea, el gesto exacto que provoca ese problema, luz dura y dramatica, sin producto",
+    "CONTRASTE: el antes y el despues nombran las cinco zonas una por una — busto, piernas, gluteos, papada y cara — cada uno en su extremo. Resumirlo en mejor cuerpo no produce nada",
+    "El despues se genera CON el antes de referencia: misma mujer, mismo sitio, mismo encuadre",
+    "Real o dibujado, elegible por seccion en Ajustes: Pixar, claymation, anime o 3D",
+    "Biblioteca de 23 fotos de antes y despues guardada en assets/referencias"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.11.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.11.0/LANDING-AI-1.11.0.zip",
-  "bytes": 77541364
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.12.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.12.0/LANDING-AI-1.12.0.zip",
+  "bytes": 77543727
 }
