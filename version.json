@@ -1,14 +1,15 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "fecha": "2026-09-04",
-  "titulo": "Primera versión",
+  "titulo": "Cerebro compartido y auto-actualizacion",
   "notas": [
-    "Constructor guiado en 9 pasos",
-    "Redactor de copy con IA",
-    "Generacion y optimizacion de imagenes",
+    "La app se actualiza sola desde la nube, sin necesidad de token",
+    "Cerebro compartido: lo que le funciono a los demas, ordenado por tu nicho",
+    "Borrar proyectos, con copia de seguridad en la papelera",
     "Exportacion a .gempages nativo",
-    "Auditoria de conversion sin filtros",
-    "Cerebro compartido y buscador de actualizaciones"
+    "El campo del token comprueba contra GitHub antes de guardar"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/latest"
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.1.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.1.0/LANDING-AI-1.1.0.zip",
+  "bytes": 34817319
 }
