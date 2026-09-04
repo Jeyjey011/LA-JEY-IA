@@ -1,16 +1,15 @@
 {
-  "version": "1.4.2",
+  "version": "1.4.3",
   "fecha": "2026-09-04",
-  "titulo": "Guardado, carpetas y el fallo que borraba imagenes",
+  "titulo": "La cabecera ya no se corta a pantalla completa",
   "notas": [
-    "ARREGLADO: poner una imagen y volver a Textos la borraba. El editor guardaba encima una copia vieja de la configuracion",
-    "ARREGLADO: la vista previa refresca de verdad y vuelve al punto donde estabas, en vez de saltar arriba",
-    "Boton Guardar y Ctrl+S para archivar el proyecto cuando quieras",
-    "Archivado automatico cada dos minutos y tambien al cerrar la ventana",
-    "Aviso de guardado en la cabecera: se ve si lo ultimo que escribiste esta a salvo",
-    "Boton Carpeta: abre la del proyecto, las imagenes, lo exportado o los proyectos guardados"
+    "ARREGLADO: a pantalla completa la cabecera necesitaba 1911 px, y al no caber se aplastaba entera y cortaba el texto de los botones",
+    "Ahora los botones no se encogen: si no caben, la barra pasa a dos filas y crece con ella",
+    "Lo mismo en la barra de la vista previa",
+    "Queda claro que la clave de APIMART sirve para las tres cosas: redactar, generar imagenes y auditar. No hace falta ninguna clave de Claude aparte",
+    "Los modelos de texto quedan a la vista en la configuracion"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.4.2",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.4.2/LANDING-AI-1.4.2.zip",
-  "bytes": 77495064
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.4.3",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.4.3/LANDING-AI-1.4.3.zip",
+  "bytes": 77495970
 }
