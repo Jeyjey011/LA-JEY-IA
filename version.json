@@ -1,15 +1,15 @@
 {
-  "version": "1.13.0",
+  "version": "1.14.0",
   "fecha": "2026-09-04",
-  "titulo": "Biblioteca de moldes, referencias etiquetadas y busto arriba",
+  "titulo": "Layout de zonas y version animada del contraste",
   "notas": [
-    "Tus 23 fotos de antes y despues sirven de MOLDE: se copia la pose, el encuadre y la luz, y la mujer la pone el casting del proyecto",
-    "ARREGLADO de LA FRAGUA: cuando van dos referencias hay que decir cual es cual. Sin etiquetar, el modelo adivina y donde falla es en el producto",
-    "Busto levantado en los cinco niveles, no solo grande: pedir volumen sin pedir que suba saca un busto caido",
-    "Freno de proporciones: pedir cintura minima con muslos gruesos estiraba el cuerpo y salian figuras alargadas",
-    "Ruta nueva para listar la biblioteca de referencias desde la app"
+    "Modo LAYOUT en el contraste: la mujer en el centro y cada zona senalada con su linea y su etiqueta. Las etiquetas salen del config, editables por producto",
+    "Modo ANIMADO en problema y contraste: Pixar, claymation, anime o 3D. El candado de estilo va al principio y al final, y las personas van dibujadas",
+    "ARREGLADO: los codigos hex se pintaban como texto encima de la lamina. Ahora el hex va pegado a lo que colorea, nunca suelto",
+    "ARREGLADO: una etiqueta repetida salia dos veces en la imagen",
+    "gpt-image-2 censura cuerpos: en laminas con persona se manda seedream primero y se deja de perder la llamada"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.13.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.13.0/LANDING-AI-1.13.0.zip",
-  "bytes": 77545197
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.14.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.14.0/LANDING-AI-1.14.0.zip",
+  "bytes": 77546131
 }
