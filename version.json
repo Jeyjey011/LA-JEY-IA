@@ -1,15 +1,18 @@
 {
-  "version": "1.5.1",
+  "version": "1.6.0",
   "fecha": "2026-09-04",
-  "titulo": "El redactor ya funciona: Claude escribe la landing entera",
+  "titulo": "Imagenes con criterio: cada hueco pide lo que necesita",
   "notas": [
-    "ARREGLADO: se enviaba temperature, que quedo obsoleto en los modelos Claude 5, y la API respondia 400",
-    "ARREGLADO: el manejo de errores adivinaba la causa por una palabra suelta y acusaba al modelo de no existir cuando el fallo era otro. Ahora se muestra lo que dice Anthropic, tal cual",
-    "La redaccion va en tandas de 45 campos: si una falla, el resto entra igual",
-    "Si una respuesta se corta por el limite de tokens, lo dice con esas palabras en vez de reventar con un JSON roto",
-    "La lista de modelos es la que devuelve tu cuenta, no una inventada"
+    "Cada hueco declara QUE tiene que conseguir en el embudo, no solo como se ve",
+    "El prompt lo escribe Claude leyendo ese encargo, el titular que va al lado y la paleta REAL del producto",
+    "El modelo sale del tipo: diseno a gpt-image-2, gente y escenas a seedream, iconos a nano-banana",
+    "El hero es diseno de marca con la paleta del producto, no una foto de banco",
+    "No en todas sale el producto: en las de dolor y en los retratos no aparece",
+    "El despues se genera a partir del antes, para que sea la misma persona",
+    "Al cambiar de producto cambia la paleta y las imagenes cambian con ella",
+    "Cada tarjeta enseña su tipo y su modelo antes de gastar nada"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.5.1",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.5.1/LANDING-AI-1.5.1.zip",
-  "bytes": 77500807
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.6.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.6.0/LANDING-AI-1.6.0.zip",
+  "bytes": 77504404
 }
