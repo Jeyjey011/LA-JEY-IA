@@ -1,16 +1,17 @@
 {
-  "version": "1.3.0",
+  "version": "1.3.1",
   "fecha": "2026-09-04",
-  "titulo": "Ventana nativa y descarga directa del .gempages",
+  "titulo": "Icono propio, barra oscura y brasa por toda la app",
   "notas": [
-    "Ventana de Windows propia con WebView2: se acabaron las ventanas de navegador acumuladas",
-    "Icono de fuego propio en la barra de tareas",
+    "Icono de fuego en la ventana y en la barra de tareas",
+    "Barra de titulo oscura: se acabo la franja blanca sobre la app negra",
+    "El anillo de fuego de la actualizacion, ahora en botones, pasos y barra de avance",
+    "Ceniza subiendo detras del panel de pasos",
     "El boton de la cabecera descarga el .gempages directamente",
     "Fuera el boton de publicar en Shopify: no publicaba nada",
-    "Las actualizaciones se leen de la Release, no del CDN",
-    "El reemplazo renombra en vez de sobreescribir: ya no falla por archivos en uso"
+    "Arreglada la auto-actualizacion: no llegaba a ejecutarse y se quedaba a medias"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.3.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.3.0/LANDING-AI-1.3.0.zip",
-  "bytes": 77489976
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.3.1",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.3.1/LANDING-AI-1.3.1.zip",
+  "bytes": 77491370
 }
