@@ -1,15 +1,13 @@
 {
-  "version": "1.10.0",
+  "version": "1.11.0",
   "fecha": "2026-09-04",
-  "titulo": "Los diales del cuerpo, y guiones que suenan a persona",
+  "titulo": "La app deja de cambiar sola: la interfaz va dentro del ejecutable",
   "notas": [
-    "Cinco diales en Ajustes: busto, gluteos, piernas, cintura y cuanta ropa. Del 1 al 5, y mandan en toda foto o video donde sale una persona",
-    "Cada nivel es una frase distinta, no un muy delante: a un modelo de imagen muy grande no le dice nada",
-    "Lo que nunca cambia: brazos y hombros femeninos, y nunca gorda",
-    "Guiones de las resenas reescritos en tu estilo, con bebe ele escrito como suena para que el modelo no lo lea en ingles",
-    "ARREGLADO: el fotograma salia enmarcado dentro de un movil dibujado"
+    "ARREGLADO DE RAIZ: el servidor leia editor/ del disco en cada arranque, asi que cualquier cambio en la interfaz aparecia en tu app sin que actualizaras. El .exe seguia igual byte a byte, pero la pantalla cambiaba",
+    "Ahora la interfaz viaja empotrada dentro del ejecutable: la app es lo que instalaste, y solo cambia cuando pulsas Version",
+    "editor/ ya no se copia suelto en el paquete, para que no vuelva a colarse"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.10.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.10.0/LANDING-AI-1.10.0.zip",
-  "bytes": 77515337
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.11.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.11.0/LANDING-AI-1.11.0.zip",
+  "bytes": 77541364
 }
