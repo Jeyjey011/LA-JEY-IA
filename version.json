@@ -1,12 +1,15 @@
 {
-  "version": "1.9.1",
+  "version": "1.10.0",
   "fecha": "2026-09-04",
-  "titulo": "El frasco sale limpio, sin el adhesivo de promocion",
+  "titulo": "Los diales del cuerpo, y guiones que suenan a persona",
   "notas": [
-    "El candado decia identical, zero changes y el modelo copiaba fielmente el adhesivo COMPRA 1 + OBSEQUIO que lleva pegado la foto de referencia",
-    "Ahora se dice explicitamente que los adhesivos, sellos de descuento y etiquetas de precio NO son parte del producto: sale como se vende"
+    "Cinco diales en Ajustes: busto, gluteos, piernas, cintura y cuanta ropa. Del 1 al 5, y mandan en toda foto o video donde sale una persona",
+    "Cada nivel es una frase distinta, no un muy delante: a un modelo de imagen muy grande no le dice nada",
+    "Lo que nunca cambia: brazos y hombros femeninos, y nunca gorda",
+    "Guiones de las resenas reescritos en tu estilo, con bebe ele escrito como suena para que el modelo no lo lea en ingles",
+    "ARREGLADO: el fotograma salia enmarcado dentro de un movil dibujado"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.9.1",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.9.1/LANDING-AI-1.9.1.zip",
-  "bytes": 77513241
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.10.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.10.0/LANDING-AI-1.10.0.zip",
+  "bytes": 77515337
 }
