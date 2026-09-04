@@ -1,18 +1,17 @@
 {
-  "version": "1.6.0",
+  "version": "1.7.0",
   "fecha": "2026-09-04",
-  "titulo": "Imagenes con criterio: cada hueco pide lo que necesita",
+  "titulo": "Imagenes con tu frasco real y laminas con texto, como tiene que ser",
   "notas": [
-    "Cada hueco declara QUE tiene que conseguir en el embudo, no solo como se ve",
-    "El prompt lo escribe Claude leyendo ese encargo, el titular que va al lado y la paleta REAL del producto",
-    "El modelo sale del tipo: diseno a gpt-image-2, gente y escenas a seedream, iconos a nano-banana",
-    "El hero es diseno de marca con la paleta del producto, no una foto de banco",
-    "No en todas sale el producto: en las de dolor y en los retratos no aparece",
-    "El despues se genera a partir del antes, para que sea la misma persona",
-    "Al cambiar de producto cambia la paleta y las imagenes cambian con ella",
-    "Cada tarjeta enseña su tipo y su modelo antes de gastar nada"
+    "Nuevo hueco en el paso 1: la FOTO REAL del producto. Va de referencia en toda imagen donde aparece, y el frasco es el tuyo, no uno inventado",
+    "Las laminas de diseno llevan TEXTO encima: titular, cifras, pasos y regalos salen de la copy real de la landing",
+    "Cuatro laminas de hero con trabajo propio: portada, prueba social, como actua y por que si",
+    "Tres laminas de regalo con su cartel: envio gratis, guia y descuento",
+    "El prompt lo escribe Claude Opus. Candado de identidad delante, sin describir el frasco, corto: lo que aprendio LA FRAGUA pagando generaciones",
+    "gpt-image-2 tiene 6 minutos cuando lleva referencia: con 3 se rendia justo antes de acabar",
+    "Probado con dinero real: portada, regalo y foto de antes salen como las de referencia"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.6.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.6.0/LANDING-AI-1.6.0.zip",
-  "bytes": 77504404
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.7.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.7.0/LANDING-AI-1.7.0.zip",
+  "bytes": 77507060
 }
