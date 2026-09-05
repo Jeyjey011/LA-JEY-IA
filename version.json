@@ -1,13 +1,17 @@
 {
-  "version": "1.41.0",
+  "version": "1.42.0",
   "fecha": "2026-09-05",
-  "titulo": "Las insignias de la garantia se editan",
+  "titulo": "Botones de escena, guion a medida y apariencia por clienta",
   "notas": [
-    "Las cinco etiquetas de la lamina de garantia salen del config y se editan en Textos: estaban escritas dentro del codigo",
-    "Registro INVIMA era una afirmacion regulatoria escrita a fuego: la app se la pedia al modelo aunque el producto no tuviera registro. Sin insignias en el config, esa linea ya no se manda",
-    "La insignia lleva el numero real del registro en vez del generico"
+    "Nueve grupos de botones para el video de resena: grabacion, angulo, camara, como sostiene el producto, sitio, ropa, gesto, voz y acento. 90 opciones sacadas de la biblioteca de prompts",
+    "Un boton de IA escribe el guion a la medida de los segundos: 8s son ~20 palabras y 12s ~30, y dice cuantas escribio y cuantas caben",
+    "El texto libre se queda: los botones se suman a lo escrito, no lo sustituyen",
+    "Cada clienta tiene su apariencia -tez, pecas, pelo- editable, y su foto y su video la leen del mismo sitio: antes las cuatro resenas pedian la misma mujer",
+    "Las fotos de resena dejan de tener la apariencia escrita en el codigo",
+    "Las filas de HOY / DIA 30 del CTA MID se leian de corrido como una sola frase: ahora cada par lleva su separador",
+    "El catalogo avisa y descarta las combinaciones imposibles en vez de dejarlas pasar: un gesto que pide dos manos con un punto de vista de una sola, o el gesto del cafe teniendo ya el frasco en la mano"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.41.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.41.0/LANDING-AI-1.41.0.zip",
-  "bytes": 158913755
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.42.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.42.0/LANDING-AI-1.42.0.zip",
+  "bytes": 158937099
 }
