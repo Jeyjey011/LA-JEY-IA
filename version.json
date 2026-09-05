@@ -1,14 +1,14 @@
 {
-  "version": "1.28.0",
+  "version": "1.29.0",
   "fecha": "2026-09-05",
-  "titulo": "El x2 en segunda pasada",
+  "titulo": "Poses del antes y del despues",
   "notas": [
-    "El ajuste del cuerpo se aplica ENCIMA de la foto, no dentro del prompt de generacion",
-    "Por texto no funcionaba: seedream se ancla a la silueta de la hoja y devolvia las dos fotos iguales, con tres redacciones distintas",
-    "Encima de una foto ya hecha si obedece, y conserva cara, pose, ropa y luz",
-    "El antes se reduce y el despues se aumenta solos, sin acordarse de nada. Cuesta una generacion mas por modelo"
+    "Dos selectores nuevos en Ajustes: que pose usar en el antes y cual en el despues",
+    "Son los mismos tres bloqueos del paso Modelos: perfil, frontal y de espaldas",
+    "La misma pose en los dos lados hace que la comparacion se lea: para comparar dos cuerpos hay que verlos desde el mismo sitio",
+    "El retoque conserva ahora tambien el encuadre: la segunda pasada ya no recorta a medio muslo"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.28.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.28.0/LANDING-AI-1.28.0.zip",
-  "bytes": 144584642
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.29.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.29.0/LANDING-AI-1.29.0.zip",
+  "bytes": 144585371
 }
