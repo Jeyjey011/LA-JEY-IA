@@ -1,16 +1,21 @@
 {
-  "version": "1.43.0",
+  "version": "1.44.0",
   "fecha": "2026-09-05",
-  "titulo": "Los seis fallos graves de la auditoria",
+  "titulo": "Las medias de la auditoria: el rail, el catalogo y ocho fallos mas",
   "notas": [
-    "El candado del producto mandaba borrar el sticker promocional de la foto de referencia. No hay tal sticker: lo unico redondo son los TRES ICONOS IMPRESOS en la etiqueta real (36g, porciones, ingredientes naturales). La unica frase que existia para proteger la etiqueta era la que ordenaba borrarle tres cosas suyas",
-    "El mismo prompt pedia copiar la tipografia de la etiqueta y a la vez prohibia cualquier letra: el modelo elegia, y o pintaba el titular del anuncio en la pared o dejaba el frasco sin etiqueta. Ahora se dice QUE parte de la referencia es el producto y de que texto se habla",
-    "descargar() era un fetch pelado: un corte de wifi de un segundo tiraba una imagen o un video YA PAGADO. Ahora lleva plazo, tres intentos, y el enlace viaja dentro del error para poder abrir lo que se pago",
-    "El nombre del archivo salia de la posicion del hueco, asi que dos proyectos distintos escribian el mismo archivo: la foto que se pago para uno salia en el otro. Ahora lleva el proyecto y una marca de tiempo, y se comprueba que no pise ninguna existente",
-    "Poner una foto del catalogo copiaba el PNG crudo y se saltaba el optimizador: 1.820 KB donde la misma foto arrastrada pesa 46 KB. Ahora pasa por el mismo recorte y el mismo WebP",
-    "Generar todas las vacias pagaba fotogramas de video sin esperar a ninguno y terminaba diciendo que salio bien"
+    "El rail de pasos emparejaba por POSICION: 11 botones contra una lista de 8 claves, asi que un paso ensenaba el estado de otro -Modelos en verde diciendo 20 secciones, Auditoria diciendo Shopify conectado. Ahora empareja por clave y solo se miden los 8 que el servidor sabe medir",
+    "El catalogo de fotos se pedia una vez y no se refrescaba nunca: lo que guardabas en Modelos o en Estudio no aparecia hasta cerrar y reabrir la app",
+    "El paso Avanzado prometia subir la landing a Shopify y no habia ningun boton que lo hiciera: el endpoint estaba vivo y no lo llamaba nadie",
+    "Subir caras al estudio decia N caras guardadas aunque hubieran fallado todas",
+    "Si fallaba la 2a pasada del paso Modelos se perdia la 1a, ya generada y pagada: ahora se devuelve con el motivo del fallo",
+    "Si el relevo de la actualizacion no arranca, la pantalla se queda para siempre en se cierra sola y vuelve: ahora lo dice",
+    "El aviso de que el guion no cabe en el clip llegaba cuando el video ya estaba pagado",
+    "La foto principal del hero salia con loading=lazy siendo la imagen que decide la velocidad percibida",
+    "La ventana solo preguntaba por el puerto 4321 antes de arrancar otro servidor, y hay 25 posibles",
+    "Si WebView2 no arranca, la app reventaba con el dialogo de .NET y dejaba el servidor huerfano",
+    "Archivar un proyecto escribia encima del archivo de otro sin mirar de quien era"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.43.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.43.0/LANDING-AI-1.43.0.zip",
-  "bytes": 158939971
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.44.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.44.0/LANDING-AI-1.44.0.zip",
+  "bytes": 158947411
 }
