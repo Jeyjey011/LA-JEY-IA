@@ -1,13 +1,13 @@
 {
-  "version": "1.36.0",
+  "version": "1.37.0",
   "fecha": "2026-09-05",
-  "titulo": "Sincronizar ya no puede escribir fuera de su carpeta",
+  "titulo": "El catalogo por fin se ve",
   "notas": [
-    "Una foto del repo llamada con contrabarras escribia fuera de la app: comprobado, acababa en Documents",
-    "Ahora toda ruta que se salga de assets/referencias se rechaza y se dice cual",
-    "Las fotos con # o ? en el nombre ya suben y bajan: encodeURI las cortaba y no subian nunca"
+    "Ninguna foto con espacios en el nombre se mostraba: el servidor no decodificaba la URL y buscaba en disco un archivo llamado Cara%20(1).png",
+    "Como todas las fotos del catalogo tienen espacios, el catalogo entero estaba invisible desde que se hizo: se sincronizaba bien y no se veia nada",
+    "Comprobado que el guardia de rutas sigue en pie: un intento de escape sigue dando 403"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.36.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.36.0/LANDING-AI-1.36.0.zip",
-  "bytes": 157014653
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.37.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.37.0/LANDING-AI-1.37.0.zip",
+  "bytes": 157014681
 }
