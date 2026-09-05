@@ -1,14 +1,15 @@
 {
-  "version": "1.21.0",
+  "version": "1.22.0",
   "fecha": "2026-09-05",
-  "titulo": "La hoja de rostros",
+  "titulo": "El video en dos tiempos",
   "notas": [
-    "Carpeta nueva assets/referencias/hojas/caras para tu hoja 3x3 de rostros",
-    "El rostro va aparte del cuerpo: la misma cara sirve para el antes y el despues, que es lo que hace creible la comparacion",
-    "Cuando van las dos hojas se le dice cual es cual y se le repite al final, para que no mezcle las dos mujeres",
-    "La hoja de rostro es opcional: sin ella cada cuerpo trae la mujer de su propia hoja"
+    "El boton de video ya no genera de golpe: primero sale el fotograma y el guion para que los revises",
+    "El guion y la escena se editan ahi mismo, y la duracion se elige antes de animar",
+    "El fotograma admite los mismos fuegos que las fotos: gluteos, busto, piernas y cintura",
+    "Las tres poses ya piden cuerpo entero con los pies dentro, y respetar el busto y los gluteos de la hoja",
+    "Arreglado: generar y descargar se importaban dentro de un handler, asi que el estudio y las modelos reventaban al generar"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.21.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.21.0/LANDING-AI-1.21.0.zip",
-  "bytes": 137537462
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.22.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.22.0/LANDING-AI-1.22.0.zip",
+  "bytes": 137540909
 }
