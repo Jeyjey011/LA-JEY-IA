@@ -1,13 +1,20 @@
 {
-  "version": "1.37.0",
+  "version": "1.38.0",
   "fecha": "2026-09-05",
-  "titulo": "El catalogo por fin se ve",
+  "titulo": "Auditoria completa: 46 arreglos",
   "notas": [
-    "Ninguna foto con espacios en el nombre se mostraba: el servidor no decodificaba la URL y buscaba en disco un archivo llamado Cara%20(1).png",
-    "Como todas las fotos del catalogo tienen espacios, el catalogo entero estaba invisible desde que se hizo: se sincronizaba bien y no se veia nada",
-    "Comprobado que el guardia de rutas sigue en pie: un intento de escape sigue dando 403"
+    "El boton Aceptar del paso Modelos ya funciona: siempre daba error 500",
+    "El redactor ya no reescribe el INVIMA, el NIT, la direccion ni el WhatsApp",
+    "Reordenar secciones ya no descoloca los Textos ni las Imagenes, y no puede borrarlas",
+    "auditarCopy pedia 'gpt-5' a la API de Anthropic: ahora audita de verdad",
+    "El video ya no se pierde por un fallo de red durante la espera, y el mensaje dice el tiempo real",
+    "El simbolo de moneda o el dominio con caracteres raros ya no matan el JavaScript de la landing",
+    "La API solo escucha en tu equipo: antes cualquiera en tu wifi la alcanzaba",
+    "El icono y el nombre de servidor.exe se graban bien",
+    "21 tipografias de la interfaz estaban cayendose por una variable CSS inexistente",
+    "La ventana comprueba que quien responde en el puerto es LANDING AI y no otro programa"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.37.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.37.0/LANDING-AI-1.37.0.zip",
-  "bytes": 157014681
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.38.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.38.0/LANDING-AI-1.38.0.zip",
+  "bytes": 157322422
 }
