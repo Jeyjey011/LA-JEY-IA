@@ -1,13 +1,14 @@
 {
-  "version": "1.30.0",
+  "version": "1.31.0",
   "fecha": "2026-09-05",
-  "titulo": "Bajar el catalogo sin token",
+  "titulo": "Solo la app, sin navegador",
   "notas": [
-    "Sin token la app mandaba Authorization Bearer undefined y GitHub respondia 401",
-    "Asi que a quien no tenia token no le fallaba solo subir: le fallaba tambien BAJAR, que en un repo publico deberia ir sin credenciales",
-    "Ahora la cabecera no se manda si no hay token, y el catalogo se descarga igual"
+    "servidor.exe ya no abre Edge ni Chrome ni una pestana: la interfaz la pinta siempre la ventana nativa",
+    "Quedaban dos vias por las que salia un navegador: arrancar el motor suelto, y abrir la app estando ya abierta",
+    "Fuera el buscador de navegadores, el modo --app y el perfil landing-ai-ventana",
+    "Y el relevo ya no busca procesos de Edge para matarlos: eso no lo deberia hacer una app"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.30.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.30.0/LANDING-AI-1.30.0.zip",
-  "bytes": 144585545
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.31.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.31.0/LANDING-AI-1.31.0.zip",
+  "bytes": 144584586
 }
