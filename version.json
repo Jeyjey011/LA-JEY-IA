@@ -1,20 +1,27 @@
 {
-  "version": "1.38.0",
+  "version": "1.39.0",
   "fecha": "2026-09-05",
-  "titulo": "Auditoria completa: 46 arreglos",
+  "titulo": "Secciones animadas, paquetes por cantidad y responsive",
   "notas": [
-    "El boton Aceptar del paso Modelos ya funciona: siempre daba error 500",
-    "El redactor ya no reescribe el INVIMA, el NIT, la direccion ni el WhatsApp",
-    "Reordenar secciones ya no descoloca los Textos ni las Imagenes, y no puede borrarlas",
-    "auditarCopy pedia 'gpt-5' a la API de Anthropic: ahora audita de verdad",
-    "El video ya no se pierde por un fallo de red durante la espera, y el mensaje dice el tiempo real",
-    "El simbolo de moneda o el dominio con caracteres raros ya no matan el JavaScript de la landing",
-    "La API solo escucha en tu equipo: antes cualquiera en tu wifi la alcanzaba",
-    "El icono y el nombre de servidor.exe se graban bien",
-    "21 tipografias de la interfaz estaban cayendose por una variable CSS inexistente",
-    "La ventana comprueba que quien responde en el puerto es LANDING AI y no otro programa"
+    "PROBLEM, INGREDIENTES, ABSORCION, HOWTO, CTA MID y CTA FINAL pasan de laminas generadas a animacion en HTML: se escanean de un vistazo y ocupan menos",
+    "CTA EARLY es ahora un muro 3x3 con las fotos del despues del catalogo",
+    "TIMELINE monta el video de transformacion por zonas, con el fotograma y el prompt propios",
+    "Las fotos de resena: seis mujeres distintas en su casa con el frasco, y el encuadre cambia segun el tamano del envase",
+    "El pie termina como la referencia: legal, contacto, redes y el sello del registro sanitario",
+    "Los paquetes por cantidad son datos con su precio y su ahorro calculado, no una frase suelta que podia contradecir al precio",
+    "cta_mid decia que 3 unidades ahorran 219.800 mientras la rejilla decia 69.800: ahora hay una sola fuente",
+    "Cada hueco de imagen recibe su encargo: el comodin se comia a los concretos y las tres tarjetas de PROBLEM salian iguales",
+    "El paso 3 guarda en el catalogo, clasificado como antes o despues, con su boton",
+    "Todas las fotos de personas en 9:16: el paso 3 pedia 3:4 sobre cuerpos 9:16 y las ampliaba",
+    "Arreglada la cabeza torcida en las poses de perfil y de espaldas: el cuello giraba mas de lo que puede una persona",
+    "Fuera los rotulos del antes y despues",
+    "La app se puede estrechar: por debajo de 900 px la cabecera tapaba el rail y la vista previa se colaba por debajo",
+    "Shopify: se aceptan Client ID y Client secret del Dev Dashboard, que es lo unico que Shopify entrega desde que cerro las apps del admin",
+    "La investigacion del producto busca en internet de verdad y cada dato viaja con su enlace",
+    "El video del timeline se pagaba con el prompt de una resena hablando a camara",
+    "El redactor se disparaba con cualquier script acabado en redactor.mjs, y podia traducir la rama de actualizaciones"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.38.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.38.0/LANDING-AI-1.38.0.zip",
-  "bytes": 157322422
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.39.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.39.0/LANDING-AI-1.39.0.zip",
+  "bytes": 157634873
 }
