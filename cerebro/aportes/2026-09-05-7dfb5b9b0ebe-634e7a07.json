@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "id": "634e7a07-dd6c-44cb-9027-590759e403a3",
+  "fecha": "2026-09-05",
+  "autor": "7dfb5b9b0ebe",
+  "nicho": "BBL AGUAJE",
+  "producto": "BBL Pastillas Aguaje — suplemento en cápsulas, frasco de 36 g",
+  "publico": "Mujeres colombianas de 20 a 45 años, latinas, cuerpo real y natural, no modelos de pasarela",
+  "dolor": "",
+  "precio": "60-100 mil",
+  "descuento": "31%",
+  "titulares": [
+    {
+      "seccion": "1",
+      "texto": "Curvas reales en **30 días**. Sin cirugía, sin dolor."
+    },
+    {
+      "seccion": "3",
+      "texto": "Por qué el gym solo **no te pone glúteo**"
+    },
+    {
+      "seccion": "4",
+      "texto": "Dos versiones tuyas. **Una decisión.**"
+    },
+    {
+      "seccion": "5",
+      "texto": "Empieza hoy y mídete el jean en 30 días"
+    },
+    {
+      "seccion": "6",
+      "texto": "**6 activos** trabajando al tiempo"
+    },
+    {
+      "seccion": "7",
+      "texto": "Lo que pasa **desde la primera pastilla**"
+    },
+    {
+      "seccion": "8",
+      "texto": "No es tu genética."
+    },
+    {
+      "seccion": "9",
+      "texto": "Lo que reportan las que ya lo toman"
+    },
+    {
+      "seccion": "10",
+      "texto": "Más de **2.184 mujeres** ya lo están tomando"
+    },
+    {
+      "seccion": "11",
+      "texto": "Ellas te lo cuentan **en 8 segundos**"
+    },
+    {
+      "seccion": "12",
+      "texto": "Lo que nos escriben **por WhatsApp**"
+    },
+    {
+      "seccion": "13",
+      "texto": "Sigues igual que **hace 6 meses**"
+    },
+    {
+      "seccion": "14",
+      "texto": "{{brand}} tiene lo que **un genérico no**"
+    },
+    {
+      "seccion": "15",
+      "texto": "Un paso. **Literalmente uno.**"
+    }
+  ],
+  "promesas": [
+    "Más volumen en glúteos, piernas, caderas definidas, abdomen plano, energía, mandicula marcada y rostro de hermoso, confianza al vestirse"
+  ],
+  "garantia": "",
+  "ctas": [
+    "LO QUIERO PAGAR CONTRAENTREGA",
+    "QUIERO MIS CURVAS",
+    "QUIERO LLEGAR AL DÍA 30",
+    "PEDIR SIN RIESGO",
+    "PEDIR AHORA CONTRAENTREGA"
+  ],
+  "secciones": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "auditoria": null
+}
