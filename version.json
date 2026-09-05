@@ -1,21 +1,17 @@
 {
-  "version": "1.44.0",
+  "version": "1.45.0",
   "fecha": "2026-09-05",
-  "titulo": "Las medias de la auditoria: el rail, el catalogo y ocho fallos mas",
+  "titulo": "La landing exportada ya llega con sus imagenes",
   "notas": [
-    "El rail de pasos emparejaba por POSICION: 11 botones contra una lista de 8 claves, asi que un paso ensenaba el estado de otro -Modelos en verde diciendo 20 secciones, Auditoria diciendo Shopify conectado. Ahora empareja por clave y solo se miden los 8 que el servidor sabe medir",
-    "El catalogo de fotos se pedia una vez y no se refrescaba nunca: lo que guardabas en Modelos o en Estudio no aparecia hasta cerrar y reabrir la app",
-    "El paso Avanzado prometia subir la landing a Shopify y no habia ningun boton que lo hiciera: el endpoint estaba vivo y no lo llamaba nadie",
-    "Subir caras al estudio decia N caras guardadas aunque hubieran fallado todas",
-    "Si fallaba la 2a pasada del paso Modelos se perdia la 1a, ya generada y pagada: ahora se devuelve con el motivo del fallo",
-    "Si el relevo de la actualizacion no arranca, la pantalla se queda para siempre en se cierra sola y vuelve: ahora lo dice",
-    "El aviso de que el guion no cabe en el clip llegaba cuando el video ya estaba pagado",
-    "La foto principal del hero salia con loading=lazy siendo la imagen que decide la velocidad percibida",
-    "La ventana solo preguntaba por el puerto 4321 antes de arrancar otro servidor, y hay 25 posibles",
-    "Si WebView2 no arranca, la app reventaba con el dialogo de .NET y dejaba el servidor huerfano",
-    "Archivar un proyecto escribia encima del archivo de otro sin mirar de quien era"
+    "BLOQUEANTE: la landing importada en GemPages llegaba SIN IMAGENES. Las 57 referencias iban con ruta relativa (assets/images/...) y en Shopify no resuelven. Ahora se suben al repo y los src salen como URL absoluta. Medido: de 57 rutas relativas a CERO",
+    "El boton Copiar la landing entera -el que la propia pantalla llama recomendado- seguia roto entero: se arreglaron las otras dos vias y se dejo intacta la que mas se usa",
+    "Los videos salian negros aunque la URL fuera absoluta: raw.githubusercontent los sirve como application/octet-stream con nosniff y el navegador se niega a reproducirlos. Van por jsdelivr, que los sirve como video/mp4",
+    "AGUJERO DE SEGURIDAD: el export no comprobaba que el archivo cayera dentro de assets/images/. Un src escrito como assets/images/../../.env habria subido el archivo de las claves -Shopify, GitHub, Claude, APIMART- al repo PUBLICO. Ahora se rechaza",
+    "Cada foto se iba a subir dos veces porque los dos modulos usaban nombres distintos: ahora se reutiliza por huella del contenido",
+    "Sin token de GitHub el export avisa con todas las letras de que la landing va a llegar sin imagenes, en vez de exportar en silencio",
+    "Se comprueba desde fuera y sin token que la imagen y el video de verdad se abren: que el PUT diga 200 no significa que se vean"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.44.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.44.0/LANDING-AI-1.44.0.zip",
-  "bytes": 158947411
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.45.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.45.0/LANDING-AI-1.45.0.zip",
+  "bytes": 158955144
 }
