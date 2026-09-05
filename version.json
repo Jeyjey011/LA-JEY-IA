@@ -1,15 +1,14 @@
 {
-  "version": "1.22.0",
+  "version": "1.23.0",
   "fecha": "2026-09-05",
-  "titulo": "El video en dos tiempos",
+  "titulo": "El orden correcto y las hojas en el paquete",
   "notas": [
-    "El boton de video ya no genera de golpe: primero sale el fotograma y el guion para que los revises",
-    "El guion y la escena se editan ahi mismo, y la duracion se elige antes de animar",
-    "El fotograma admite los mismos fuegos que las fotos: gluteos, busto, piernas y cintura",
-    "Las tres poses ya piden cuerpo entero con los pies dentro, y respetar el busto y los gluteos de la hoja",
-    "Arreglado: generar y descargar se importaban dentro de un handler, asi que el estudio y las modelos reventaban al generar"
+    "Modelos pasa a ser el paso 2, detras de Producto: es la base de todas las fotos de personas",
+    "Estudio va detras, y luego Textos e Imagenes",
+    "Arreglado: el paquete solo miraba un nivel de assets/referencias, asi que las hojas 3x3 nunca viajaban en la release",
+    "Ahora el paquete lleva 48 fotos, 19 de ellas hojas"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.22.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.22.0/LANDING-AI-1.22.0.zip",
-  "bytes": 137540909
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.23.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.23.0/LANDING-AI-1.23.0.zip",
+  "bytes": 156992056
 }
