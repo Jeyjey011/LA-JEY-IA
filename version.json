@@ -1,14 +1,15 @@
 {
-  "version": "1.34.0",
+  "version": "1.35.0",
   "fecha": "2026-09-05",
-  "titulo": "La app ya no miente sobre su version",
+  "titulo": "Tres fallos del propio publicador",
   "notas": [
-    "Tu app decia Estas al dia sin haber actualizado nunca: leia la version de package.json, y publicar subia ese mismo archivo en tu carpeta",
-    "Ahora el numero se graba DENTRO del ejecutable al compilar, que es el unico sitio donde puede decir la verdad",
-    "publicar ya no toca tu package.json",
-    "El aviso muestra tambien la fecha del ejecutable que esta corriendo: el numero puede equivocarse, la fecha del archivo no"
+    "El zip metia el package.json del disco: la release 1.34 llevaba dentro un archivo que decia 1.33",
+    "Ya no se empaqueta: nada lo lee en ejecucion y solo servia para confundir a quien lo abriera",
+    "Si dotnet fallaba, la release se subia con la ventana de la compilacion anterior y sin un solo mensaje",
+    "Ahora eso para la publicacion en seco, y publicar dejo de tirar a la basura la salida del compilador",
+    "La ventana nativa lleva por fin su version y su nombre: antes decia 1.0.0.0"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.34.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.34.0/LANDING-AI-1.34.0.zip",
-  "bytes": 157014833
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.35.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.35.0/LANDING-AI-1.35.0.zip",
+  "bytes": 157014406
 }
