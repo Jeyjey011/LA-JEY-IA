@@ -1,14 +1,14 @@
 {
-  "version": "1.31.0",
+  "version": "1.32.0",
   "fecha": "2026-09-05",
-  "titulo": "Solo la app, sin navegador",
+  "titulo": "El icono de la app",
   "notas": [
-    "servidor.exe ya no abre Edge ni Chrome ni una pestana: la interfaz la pinta siempre la ventana nativa",
-    "Quedaban dos vias por las que salia un navegador: arrancar el motor suelto, y abrir la app estando ya abierta",
-    "Fuera el buscador de navegadores, el modo --app y el perfil landing-ai-ventana",
-    "Y el relevo ya no busca procesos de Edge para matarlos: eso no lo deberia hacer una app"
+    "La llama era blanca sobre transparente: se veia en la barra oscura y desaparecia en el Explorador y en modo claro",
+    "Ahora va sobre base redondeada con el naranja de la app, el degradado ff9f2e a ff5f1f",
+    "Los tamanos pequenos pasan a BMP y solo 128 y 256 van en PNG: asi se ve tambien donde no se leen iconos comprimidos",
+    "Se genera con tools/icono.ps1 y tools/icono.mjs, no a mano"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.31.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.31.0/LANDING-AI-1.31.0.zip",
-  "bytes": 144584586
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.32.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.32.0/LANDING-AI-1.32.0.zip",
+  "bytes": 157014414
 }
