@@ -1,14 +1,15 @@
 {
-  "version": "1.24.0",
+  "version": "1.25.0",
   "fecha": "2026-09-05",
-  "titulo": "El catalogo sincronizado",
+  "titulo": "Las generadas van al catalogo",
   "notas": [
-    "Todo lo que dejas en assets/referencias sube solo al repo al anadirlo",
-    "Boton Sincronizar en el paso Modelos: sube lo tuyo y baja lo que hayan subido otros",
-    "A los demas les llega dentro de la siguiente version, no en caliente: la app sigue siendo la que cada uno instalo",
-    "No sube nada de tu proyecto: ni config, ni assets/images, ni tus claves"
+    "Las modelos que apruebas se guardan en assets/referencias/generadas/<hoja>: se sabe de cual salio cada una",
+    "Suben solas al repo y viajan en el paquete, asi que las tienen todos",
+    "El boton de catalogo esta ahora en TODOS los huecos de imagen, no solo en los de cuerpo",
+    "La galeria sale agrupada: antes, despues, rostros y las generadas por hoja",
+    "Hero: lamina 4 rehecha con una modelo real sosteniendo tu frasco, y lamina 5 nueva de Dia 1 / Dia 30 con dos fotos del catalogo"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.24.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.24.0/LANDING-AI-1.24.0.zip",
-  "bytes": 156994108
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.25.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.25.0/LANDING-AI-1.25.0.zip",
+  "bytes": 156995595
 }
