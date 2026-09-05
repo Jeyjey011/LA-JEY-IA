@@ -1,17 +1,16 @@
 {
-  "version": "1.42.0",
+  "version": "1.43.0",
   "fecha": "2026-09-05",
-  "titulo": "Botones de escena, guion a medida y apariencia por clienta",
+  "titulo": "Los seis fallos graves de la auditoria",
   "notas": [
-    "Nueve grupos de botones para el video de resena: grabacion, angulo, camara, como sostiene el producto, sitio, ropa, gesto, voz y acento. 90 opciones sacadas de la biblioteca de prompts",
-    "Un boton de IA escribe el guion a la medida de los segundos: 8s son ~20 palabras y 12s ~30, y dice cuantas escribio y cuantas caben",
-    "El texto libre se queda: los botones se suman a lo escrito, no lo sustituyen",
-    "Cada clienta tiene su apariencia -tez, pecas, pelo- editable, y su foto y su video la leen del mismo sitio: antes las cuatro resenas pedian la misma mujer",
-    "Las fotos de resena dejan de tener la apariencia escrita en el codigo",
-    "Las filas de HOY / DIA 30 del CTA MID se leian de corrido como una sola frase: ahora cada par lleva su separador",
-    "El catalogo avisa y descarta las combinaciones imposibles en vez de dejarlas pasar: un gesto que pide dos manos con un punto de vista de una sola, o el gesto del cafe teniendo ya el frasco en la mano"
+    "El candado del producto mandaba borrar el sticker promocional de la foto de referencia. No hay tal sticker: lo unico redondo son los TRES ICONOS IMPRESOS en la etiqueta real (36g, porciones, ingredientes naturales). La unica frase que existia para proteger la etiqueta era la que ordenaba borrarle tres cosas suyas",
+    "El mismo prompt pedia copiar la tipografia de la etiqueta y a la vez prohibia cualquier letra: el modelo elegia, y o pintaba el titular del anuncio en la pared o dejaba el frasco sin etiqueta. Ahora se dice QUE parte de la referencia es el producto y de que texto se habla",
+    "descargar() era un fetch pelado: un corte de wifi de un segundo tiraba una imagen o un video YA PAGADO. Ahora lleva plazo, tres intentos, y el enlace viaja dentro del error para poder abrir lo que se pago",
+    "El nombre del archivo salia de la posicion del hueco, asi que dos proyectos distintos escribian el mismo archivo: la foto que se pago para uno salia en el otro. Ahora lleva el proyecto y una marca de tiempo, y se comprueba que no pise ninguna existente",
+    "Poner una foto del catalogo copiaba el PNG crudo y se saltaba el optimizador: 1.820 KB donde la misma foto arrastrada pesa 46 KB. Ahora pasa por el mismo recorte y el mismo WebP",
+    "Generar todas las vacias pagaba fotogramas de video sin esperar a ninguno y terminaba diciendo que salio bien"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.42.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.42.0/LANDING-AI-1.42.0.zip",
-  "bytes": 158937099
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.43.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.43.0/LANDING-AI-1.43.0.zip",
+  "bytes": 158939971
 }
