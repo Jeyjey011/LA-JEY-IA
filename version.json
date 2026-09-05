@@ -1,14 +1,16 @@
 {
-  "version": "1.19.0",
+  "version": "1.20.0",
   "fecha": "2026-09-05",
-  "titulo": "Que la app no cambie sola",
+  "titulo": "Seedream 5.0 y el modulo de modelos",
   "notas": [
-    "El catalogo de fotos ahora viaja dentro del paquete: solo cambia cuando le das a actualizar",
-    "Antes se leia del disco, asi que aparecian fotos nuevas sin actualizar nada y una instalacion limpia salia vacia",
-    "Banco de pruebas: las pruebas ya no escriben en tu config ni en tus assets",
-    "Comprobado que la interfaz sigue congelada dentro del exe"
+    "Todas las imagenes pasan a seedream-5-0-pro, con el 4-5 de respaldo",
+    "Paso nuevo Modelos: tus hojas 3x3 dan la identidad y un bloqueo de pose da la pose",
+    "Tres poses: perfil o tres cuartos, frontal y de espaldas, con tus prompts palabra por palabra",
+    "La foto sale a pantalla completa con los fuegos encima: gluteos x2, busto x2 levantado, piernas x2, cintura de reloj de arena",
+    "El fuego retoca sobre la foto que ya existe, asi que no cambia la cara ni la pose ni la luz",
+    "El check la guarda en el catalogo y queda lista para el estudio"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.19.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.19.0/LANDING-AI-1.19.0.zip",
-  "bytes": 124567076
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.20.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.20.0/LANDING-AI-1.20.0.zip",
+  "bytes": 124574109
 }
