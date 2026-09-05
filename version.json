@@ -1,14 +1,13 @@
 {
-  "version": "1.32.0",
+  "version": "1.33.0",
   "fecha": "2026-09-05",
-  "titulo": "El icono de la app",
+  "titulo": "El motor deja de llamarse Node.js",
   "notas": [
-    "La llama era blanca sobre transparente: se veia en la barra oscura y desaparecia en el Explorador y en modo claro",
-    "Ahora va sobre base redondeada con el naranja de la app, el degradado ff9f2e a ff5f1f",
-    "Los tamanos pequenos pasan a BMP y solo 128 y 256 van en PNG: asi se ve tambien donde no se leen iconos comprimidos",
-    "Se genera con tools/icono.ps1 y tools/icono.mjs, no a mano"
+    "servidor.exe salia en la barra de tareas y en el Administrador como Node.js JavaScript Runtime, con el icono de Node",
+    "Se fabrica copiando node.exe y nunca se le reescribian los datos de Windows: ahora dice LANDING AI y lleva el fuego naranja",
+    "Comprobado que el ejecutable sigue funcionando despues de reescribirle los recursos"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.32.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.32.0/LANDING-AI-1.32.0.zip",
-  "bytes": 157014414
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.33.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.33.0/LANDING-AI-1.33.0.zip",
+  "bytes": 157014427
 }
