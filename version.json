@@ -1,13 +1,14 @@
 {
-  "version": "1.33.0",
+  "version": "1.34.0",
   "fecha": "2026-09-05",
-  "titulo": "El motor deja de llamarse Node.js",
+  "titulo": "La app ya no miente sobre su version",
   "notas": [
-    "servidor.exe salia en la barra de tareas y en el Administrador como Node.js JavaScript Runtime, con el icono de Node",
-    "Se fabrica copiando node.exe y nunca se le reescribian los datos de Windows: ahora dice LANDING AI y lleva el fuego naranja",
-    "Comprobado que el ejecutable sigue funcionando despues de reescribirle los recursos"
+    "Tu app decia Estas al dia sin haber actualizado nunca: leia la version de package.json, y publicar subia ese mismo archivo en tu carpeta",
+    "Ahora el numero se graba DENTRO del ejecutable al compilar, que es el unico sitio donde puede decir la verdad",
+    "publicar ya no toca tu package.json",
+    "El aviso muestra tambien la fecha del ejecutable que esta corriendo: el numero puede equivocarse, la fecha del archivo no"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.33.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.33.0/LANDING-AI-1.33.0.zip",
-  "bytes": 157014427
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.34.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.34.0/LANDING-AI-1.34.0.zip",
+  "bytes": 157014833
 }
