@@ -1,14 +1,14 @@
 {
-  "version": "1.23.0",
+  "version": "1.24.0",
   "fecha": "2026-09-05",
-  "titulo": "El orden correcto y las hojas en el paquete",
+  "titulo": "El catalogo sincronizado",
   "notas": [
-    "Modelos pasa a ser el paso 2, detras de Producto: es la base de todas las fotos de personas",
-    "Estudio va detras, y luego Textos e Imagenes",
-    "Arreglado: el paquete solo miraba un nivel de assets/referencias, asi que las hojas 3x3 nunca viajaban en la release",
-    "Ahora el paquete lleva 48 fotos, 19 de ellas hojas"
+    "Todo lo que dejas en assets/referencias sube solo al repo al anadirlo",
+    "Boton Sincronizar en el paso Modelos: sube lo tuyo y baja lo que hayan subido otros",
+    "A los demas les llega dentro de la siguiente version, no en caliente: la app sigue siendo la que cada uno instalo",
+    "No sube nada de tu proyecto: ni config, ni assets/images, ni tus claves"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.23.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.23.0/LANDING-AI-1.23.0.zip",
-  "bytes": 156992056
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.24.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.24.0/LANDING-AI-1.24.0.zip",
+  "bytes": 156994108
 }
