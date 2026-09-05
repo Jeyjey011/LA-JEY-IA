@@ -1,15 +1,14 @@
 {
-  "version": "1.18.0",
+  "version": "1.19.0",
   "fecha": "2026-09-05",
-  "titulo": "Un producto, un antes y un despues",
+  "titulo": "Que la app no cambie sola",
   "notas": [
-    "Una sola eleccion en Ajustes decide las DOS mitades: dar forma, adelgazar, tonificar o cabello",
-    "Antes solo mandaba sobre el antes: en una landing de adelgazar salia una gordita a la izquierda y una BBL a la derecha",
-    "El despues de adelgazar es una mujer delgada, no una BBL: bajo peso, no gano curvas",
-    "El de tonificar mantiene la talla y cambia la firmeza",
-    "Los diales del cuerpo solo se usan cuando el producto promete dar forma"
+    "El catalogo de fotos ahora viaja dentro del paquete: solo cambia cuando le das a actualizar",
+    "Antes se leia del disco, asi que aparecian fotos nuevas sin actualizar nada y una instalacion limpia salia vacia",
+    "Banco de pruebas: las pruebas ya no escriben en tu config ni en tus assets",
+    "Comprobado que la interfaz sigue congelada dentro del exe"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.18.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.18.0/LANDING-AI-1.18.0.zip",
-  "bytes": 77557519
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.19.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.19.0/LANDING-AI-1.19.0.zip",
+  "bytes": 124567076
 }
