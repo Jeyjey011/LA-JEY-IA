@@ -1,14 +1,14 @@
 {
-  "version": "1.27.0",
+  "version": "1.28.0",
   "fecha": "2026-09-05",
-  "titulo": "Lenceria y contradicciones fuera",
+  "titulo": "El x2 en segunda pasada",
   "notas": [
-    "La modelo va en lenceria en los dos lados: lo unico que cambia entre una foto y otra es el cuerpo",
-    "El prompt se contradecia: fidelidad decia no la hagas mas grande y el ajuste decia doblalo, y ganaba la negacion",
-    "Ahora se pone una de las dos, nunca las dos, y se quitan tambien los no cambies el cuerpo del bloqueo de pose",
-    "Fuegos inversos para el antes: gluteos entre dos, busto entre dos, piernas entre dos, cintura sin forma"
+    "El ajuste del cuerpo se aplica ENCIMA de la foto, no dentro del prompt de generacion",
+    "Por texto no funcionaba: seedream se ancla a la silueta de la hoja y devolvia las dos fotos iguales, con tres redacciones distintas",
+    "Encima de una foto ya hecha si obedece, y conserva cara, pose, ropa y luz",
+    "El antes se reduce y el despues se aumenta solos, sin acordarse de nada. Cuesta una generacion mas por modelo"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.27.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.27.0/LANDING-AI-1.27.0.zip",
-  "bytes": 144584700
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.28.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.28.0/LANDING-AI-1.28.0.zip",
+  "bytes": 144584642
 }
