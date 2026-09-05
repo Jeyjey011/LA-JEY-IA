@@ -1,14 +1,13 @@
 {
-  "version": "1.29.0",
+  "version": "1.30.0",
   "fecha": "2026-09-05",
-  "titulo": "Poses del antes y del despues",
+  "titulo": "Bajar el catalogo sin token",
   "notas": [
-    "Dos selectores nuevos en Ajustes: que pose usar en el antes y cual en el despues",
-    "Son los mismos tres bloqueos del paso Modelos: perfil, frontal y de espaldas",
-    "La misma pose en los dos lados hace que la comparacion se lea: para comparar dos cuerpos hay que verlos desde el mismo sitio",
-    "El retoque conserva ahora tambien el encuadre: la segunda pasada ya no recorta a medio muslo"
+    "Sin token la app mandaba Authorization Bearer undefined y GitHub respondia 401",
+    "Asi que a quien no tenia token no le fallaba solo subir: le fallaba tambien BAJAR, que en un repo publico deberia ir sin credenciales",
+    "Ahora la cabecera no se manda si no hay token, y el catalogo se descarga igual"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.29.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.29.0/LANDING-AI-1.29.0.zip",
-  "bytes": 144585371
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.30.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.30.0/LANDING-AI-1.30.0.zip",
+  "bytes": 144585545
 }
