@@ -1,15 +1,15 @@
 {
-  "version": "1.17.0",
-  "fecha": "2026-09-04",
-  "titulo": "El estudio de cara y cuerpo",
+  "version": "1.18.0",
+  "fecha": "2026-09-05",
+  "titulo": "Un producto, un antes y un despues",
   "notas": [
-    "Paso nuevo Estudio: eliges una cara y un cuerpo y sale esa persona con ese cuerpo",
-    "Sirve para que sea la MISMA mujer en el antes, el despues, los testimonios y el video",
-    "Los cuerpos salen del catalogo que ya viene en la app, no se generan",
-    "El antes ya no es fijo: se elige por producto (delgada, con sobrepeso, sin tono, o ninguno)",
-    "El BBL no engorda: da forma. La cintura, brazos y cara siguen igual o mas pequenos"
+    "Una sola eleccion en Ajustes decide las DOS mitades: dar forma, adelgazar, tonificar o cabello",
+    "Antes solo mandaba sobre el antes: en una landing de adelgazar salia una gordita a la izquierda y una BBL a la derecha",
+    "El despues de adelgazar es una mujer delgada, no una BBL: bajo peso, no gano curvas",
+    "El de tonificar mantiene la talla y cambia la firmeza",
+    "Los diales del cuerpo solo se usan cuando el producto promete dar forma"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.17.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.17.0/LANDING-AI-1.17.0.zip",
-  "bytes": 77556732
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.18.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.18.0/LANDING-AI-1.18.0.zip",
+  "bytes": 77557519
 }
