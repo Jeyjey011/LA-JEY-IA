@@ -1,15 +1,14 @@
 {
-  "version": "1.25.0",
+  "version": "1.26.0",
   "fecha": "2026-09-05",
-  "titulo": "Las generadas van al catalogo",
+  "titulo": "El antes y despues sale de tus modelos",
   "notas": [
-    "Las modelos que apruebas se guardan en assets/referencias/generadas/<hoja>: se sabe de cual salio cada una",
-    "Suben solas al repo y viajan en el paquete, asi que las tienen todos",
-    "El boton de catalogo esta ahora en TODOS los huecos de imagen, no solo en los de cuerpo",
-    "La galeria sale agrupada: antes, despues, rostros y las generadas por hoja",
-    "Hero: lamina 4 rehecha con una modelo real sosteniendo tu frasco, y lamina 5 nueva de Dia 1 / Dia 30 con dos fotos del catalogo"
+    "La lamina de Dia 1 / Dia 30 usa las modelos que TU generaste, no los moldes crudos",
+    "Coge la mas reciente de generadas/antes-* y de generadas/despues-*: la misma mujer con los dos cuerpos",
+    "Esa lamina la hace seedream y no gpt-image-2: gpt no coloca fotos, las redibuja",
+    "Candado de ropa: seedream le quito la camiseta a una modelo al recolocarla, y ya no puede"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.25.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.25.0/LANDING-AI-1.25.0.zip",
-  "bytes": 156995595
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.26.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.26.0/LANDING-AI-1.26.0.zip",
+  "bytes": 144583181
 }
