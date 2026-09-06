@@ -1,17 +1,19 @@
 {
-  "version": "1.45.0",
-  "fecha": "2026-09-05",
-  "titulo": "La landing exportada ya llega con sus imagenes",
+  "version": "1.46.0",
+  "fecha": "2026-09-06",
+  "titulo": "Paso Velocidad: cuanto pesa, optimizar y examen de rapidez",
   "notas": [
-    "BLOQUEANTE: la landing importada en GemPages llegaba SIN IMAGENES. Las 57 referencias iban con ruta relativa (assets/images/...) y en Shopify no resuelven. Ahora se suben al repo y los src salen como URL absoluta. Medido: de 57 rutas relativas a CERO",
-    "El boton Copiar la landing entera -el que la propia pantalla llama recomendado- seguia roto entero: se arreglaron las otras dos vias y se dejo intacta la que mas se usa",
-    "Los videos salian negros aunque la URL fuera absoluta: raw.githubusercontent los sirve como application/octet-stream con nosniff y el navegador se niega a reproducirlos. Van por jsdelivr, que los sirve como video/mp4",
-    "AGUJERO DE SEGURIDAD: el export no comprobaba que el archivo cayera dentro de assets/images/. Un src escrito como assets/images/../../.env habria subido el archivo de las claves -Shopify, GitHub, Claude, APIMART- al repo PUBLICO. Ahora se rechaza",
-    "Cada foto se iba a subir dos veces porque los dos modulos usaban nombres distintos: ahora se reutiliza por huella del contenido",
-    "Sin token de GitHub el export avisa con todas las letras de que la landing va a llegar sin imagenes, en vez de exportar en silencio",
-    "Se comprueba desde fuera y sin token que la imagen y el video de verdad se abren: que el PUT diga 200 no significa que se vean"
+    "Paso nuevo que mide la landing de verdad, archivo por archivo, bajandola como la baja un movil. Nada estimado",
+    "Lo que decide si la clienta se queda no es el peso total sino lo que hay que bajar antes de ver la primera pantalla, y eso es lo que se ensena primero",
+    "Boton que optimiza las fotos que lo necesitan: recorta al ratio del hueco y pasa a WebP, lo mismo que ya pasa al arrastrar una foto nueva",
+    "NO DESTRUCTIVO: no sobrescribe, escribe el WebP al lado y ensena el antes y el despues foto a foto antes de tocar nada. Probado aplicando y deshaciendo: 62 de 62 archivos vuelven identicos byte a byte",
+    "Solo toca las que lo necesitan: de 46 fotos propuso 4, las cuatro crudas, y dejo las 42 ya optimizadas con su motivo escrito. Reencodear lo ya reencodeado degrada",
+    "Examen de rapidez con nota y con el numero medido en cada punto: la landing pasa de 58 a 74 sobre 100 optimizando esas cuatro",
+    "Los guardias del panel devolvian en silencio: pulsar mientras trabajaba parecia un boton roto",
+    "Shopify: verificar conexion guardaba un config de hace segundos encima del actual y borraba lo que se hubiera editado mientras tanto",
+    "Un apostrofo en un texto rompia el atributo al exportar a GemPages"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.45.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.45.0/LANDING-AI-1.45.0.zip",
-  "bytes": 158955144
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.46.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.46.0/LANDING-AI-1.46.0.zip",
+  "bytes": 158999227
 }
