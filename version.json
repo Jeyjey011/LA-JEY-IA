@@ -1,14 +1,16 @@
 {
-  "version": "1.48.0",
+  "version": "1.49.0",
   "fecha": "2026-09-06",
-  "titulo": "El export de GemPages ya se ve igual que la vista previa",
+  "titulo": "Los videos ya adelgazan de verdad, y se puede volver a apretar",
   "notas": [
-    "El CSS repartido por secciones perdia 15 reglas de estado: la onda del boton, los puntos del carrusel, el FAQ que abre, el contador en rojo. El repartidor solo miraba el HTML y esas clases las pone el JS; ahora las lee del JS.",
-    "El motor de la pagina arrancaba mal, de dos formas distintas segun por donde exportaras. Al copiar corria una vez por seccion y duplicaba los puntos de cada carrusel: 63 en vez de 3. En el archivo .gempages arrancaba con la primera seccion, cuando las otras veinte aun no existian, y esas veinte se quedaban sin carruseles ni animaciones.",
-    "Ahora hay un solo arranque, en src/motorunico.mjs: espera a que GemPages termine de montar y da una sola pasada sobre la pagina entera.",
-    "Comprobado contra la vista previa: las 20 secciones coinciden en alto, texto, imagenes y videos. Ninguna seccion pasa de 256 KB (la mayor, 79 KB)."
+    "El escalon maximo no encogia nada al volver a pulsar: la escala se aplicaba al hueco y no al video, asi que no podia bajar de 526 px por muchas veces que le dieras. Ahora sigue bajando, con un suelo para que no se destroce.",
+    "Cada pulsada recodificaba la recodificacion anterior, encadenando perdida. Ahora los pixeles salen del archivo de partida —que nunca se pisa— y solo el objetivo baja escalon a escalon.",
+    "El escalon era uno para toda la landing y solo subia, asi que un video puesto despues entraba directo en maximo. Ahora cada archivo lleva el suyo y el desplegable es el tope.",
+    "Las fotos tambien tienen escalones. El techo del boton usaba 0,12 bytes por pixel cuando tus fotos pesan 0,0577, y por eso decia que no sobra nada mientras el panel decia que si.",
+    "Tres arreglos sobre tus fotos: la limpieza de respaldos borraba el camino de vuelta al original, deshacer la sesion entera pisaba la foto que hubieras puesto despues, y el servidor no miraba de que producto era la copia.",
+    "Medido con el boton de verdad: 7524 KB a 3382 KB en dos pulsadas, 10 segundos. Cada salida se reproduce, con voz y con el moov delante, y deshacer devuelve el original byte a byte."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.48.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.48.0/LANDING-AI-1.48.0.zip",
-  "bytes": 157218260
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.49.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.49.0/LANDING-AI-1.49.0.zip",
+  "bytes": 157226808
 }
