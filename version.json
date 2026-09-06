@@ -1,17 +1,14 @@
 {
-  "version": "1.47.0",
+  "version": "1.48.0",
   "fecha": "2026-09-06",
-  "titulo": "La landing exportada ya cabe en GemPages",
+  "titulo": "El export de GemPages ya se ve igual que la vista previa",
   "notas": [
-    "BLOQUEANTE: GemPages rechazaba la landing con -La seccion supera el limite de 256KB- porque iba entera en un solo bloque. Ahora va una seccion por bloque y la mayor pesa 78 KB",
-    "Cada seccion se lleva SU PROPIO CSS y su propio motor. Antes el CSS colgaba de una seccion aparte y las demas salian con el HTML pelado: si GemPages la montaba tarde o el usuario la borraba desde su editor, la pagina se deshacia al deslizar",
-    "Ya se puede mover, borrar y reordenar cualquier seccion desde el editor de GemPages sin que las demas se rompan",
-    "Lo que lo hace posible ya estaba escrito en el proyecto -csspartir.mjs y su subconjunto()- y no lo llamaba nadie: era codigo muerto",
-    "Si una seccion se acerca a los 256 KB, el export lo dice por nombre en vez de dejar que GemPages la rechace",
-    "Shopify: verificar conexion guardaba un config de hace segundos encima del actual y borraba lo editado mientras tanto",
-    "Un apostrofo en un texto rompia el atributo al exportar"
+    "El CSS repartido por secciones perdia 15 reglas de estado: la onda del boton, los puntos del carrusel, el FAQ que abre, el contador en rojo. El repartidor solo miraba el HTML y esas clases las pone el JS; ahora las lee del JS.",
+    "El motor de la pagina arrancaba mal, de dos formas distintas segun por donde exportaras. Al copiar corria una vez por seccion y duplicaba los puntos de cada carrusel: 63 en vez de 3. En el archivo .gempages arrancaba con la primera seccion, cuando las otras veinte aun no existian, y esas veinte se quedaban sin carruseles ni animaciones.",
+    "Ahora hay un solo arranque, en src/motorunico.mjs: espera a que GemPages termine de montar y da una sola pasada sobre la pagina entera.",
+    "Comprobado contra la vista previa: las 20 secciones coinciden en alto, texto, imagenes y videos. Ninguna seccion pasa de 256 KB (la mayor, 79 KB)."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.47.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.47.0/LANDING-AI-1.47.0.zip",
-  "bytes": 157187954
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.48.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.48.0/LANDING-AI-1.48.0.zip",
+  "bytes": 157218260
 }
