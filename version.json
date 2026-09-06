@@ -1,19 +1,17 @@
 {
-  "version": "1.46.0",
+  "version": "1.47.0",
   "fecha": "2026-09-06",
-  "titulo": "Paso Velocidad: cuanto pesa, optimizar y examen de rapidez",
+  "titulo": "La landing exportada ya cabe en GemPages",
   "notas": [
-    "Paso nuevo que mide la landing de verdad, archivo por archivo, bajandola como la baja un movil. Nada estimado",
-    "Lo que decide si la clienta se queda no es el peso total sino lo que hay que bajar antes de ver la primera pantalla, y eso es lo que se ensena primero",
-    "Boton que optimiza las fotos que lo necesitan: recorta al ratio del hueco y pasa a WebP, lo mismo que ya pasa al arrastrar una foto nueva",
-    "NO DESTRUCTIVO: no sobrescribe, escribe el WebP al lado y ensena el antes y el despues foto a foto antes de tocar nada. Probado aplicando y deshaciendo: 62 de 62 archivos vuelven identicos byte a byte",
-    "Solo toca las que lo necesitan: de 46 fotos propuso 4, las cuatro crudas, y dejo las 42 ya optimizadas con su motivo escrito. Reencodear lo ya reencodeado degrada",
-    "Examen de rapidez con nota y con el numero medido en cada punto: la landing pasa de 58 a 74 sobre 100 optimizando esas cuatro",
-    "Los guardias del panel devolvian en silencio: pulsar mientras trabajaba parecia un boton roto",
-    "Shopify: verificar conexion guardaba un config de hace segundos encima del actual y borraba lo que se hubiera editado mientras tanto",
-    "Un apostrofo en un texto rompia el atributo al exportar a GemPages"
+    "BLOQUEANTE: GemPages rechazaba la landing con -La seccion supera el limite de 256KB- porque iba entera en un solo bloque. Ahora va una seccion por bloque y la mayor pesa 78 KB",
+    "Cada seccion se lleva SU PROPIO CSS y su propio motor. Antes el CSS colgaba de una seccion aparte y las demas salian con el HTML pelado: si GemPages la montaba tarde o el usuario la borraba desde su editor, la pagina se deshacia al deslizar",
+    "Ya se puede mover, borrar y reordenar cualquier seccion desde el editor de GemPages sin que las demas se rompan",
+    "Lo que lo hace posible ya estaba escrito en el proyecto -csspartir.mjs y su subconjunto()- y no lo llamaba nadie: era codigo muerto",
+    "Si una seccion se acerca a los 256 KB, el export lo dice por nombre en vez de dejar que GemPages la rechace",
+    "Shopify: verificar conexion guardaba un config de hace segundos encima del actual y borraba lo editado mientras tanto",
+    "Un apostrofo en un texto rompia el atributo al exportar"
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.46.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.46.0/LANDING-AI-1.46.0.zip",
-  "bytes": 158999227
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.47.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.47.0/LANDING-AI-1.47.0.zip",
+  "bytes": 157187954
 }
