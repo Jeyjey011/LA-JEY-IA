@@ -1,14 +1,14 @@
 {
-  "version": "1.50.0",
+  "version": "1.51.0",
   "fecha": "2026-09-07",
-  "titulo": "La landing ya se ve igual dentro de GemPages",
+  "titulo": "El 401 de Shopify no era de Shopify",
   "notas": [
-    "El fallo no era el CSS que faltaba: era el PESO de los selectores. GemPages envuelve cada bloque en .gp-custom-code y trae su propio reseteo del tipo '.gp-algo h2', que le gana a nuestra clase suelta .la-h2. Medido en tu tienda: el titular salia a 16,5 px cuando deberia ser 27, y el mismo clamp puesto en linea si daba 27.",
-    "Le pasaba a todo lo que estilice una etiqueta que ellos tambien resetean: los titulares, los botones y el padding de las secciones. Ahora cada selector va con su clase repetida tres veces, que apunta a lo mismo pero pesa mas. Probado inyectandolo en tu pagina real: con dos no basta, con tres gana todo.",
-    "Comprobado: 5175 de 5175 selectores tratados, los keyframes intactos, y montando el export contra la vista previa salen 20 secciones con 0 diferencias.",
-    "Tambien arregle cuatro cosas que habia roto yo: saltar hasta el primer fotograma clave desincronizaba la voz cuatro segundos, la limpieza de respaldos ya no borraba nada y llenaba el disco, el panel de peso no volvia a medir despues de optimizar, y una sesion de deshacer se quedaba pegada para siempre."
+    "Tu app estaba bien instalada y con los permisos puestos: lo comprobe pidiendo el token con tus credenciales y Shopify contesto 200. El fallo era mio.",
+    "En la casilla del Admin API token habia un valor que empieza por shpss_, que no es un token sino el Client secret. La app lo daba por eterno, nunca pedia uno con el Client ID que si funcionaba, y todas las llamadas morian con un 401 que encima acusaba a la instalacion de la app.",
+    "Ahora un token que no empiece por shpat_ se descarta con el motivo escrito, y si el token caduca a las 24 horas la app pide otro y reintenta una vez en vez de rendirse.",
+    "El texto de ayuda tambien estaba mal: mandaba a partners.shopify.com cuando el Dev Dashboard esta en dev.shopify.com/dashboard, y guiaba por el camino que Shopify ya cerro. Ahora dice desde el principio que son dos vias y que se rellena una sola."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.50.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.50.0/LANDING-AI-1.50.0.zip",
-  "bytes": 157236243
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.51.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.51.0/LANDING-AI-1.51.0.zip",
+  "bytes": 157237096
 }
