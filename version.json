@@ -1,14 +1,14 @@
 {
-  "version": "1.51.0",
+  "version": "1.52.0",
   "fecha": "2026-09-07",
-  "titulo": "El 401 de Shopify no era de Shopify",
+  "titulo": "Los titulares ya no se pegan, y los videos ensenan su portada",
   "notas": [
-    "Tu app estaba bien instalada y con los permisos puestos: lo comprobe pidiendo el token con tus credenciales y Shopify contesto 200. El fallo era mio.",
-    "En la casilla del Admin API token habia un valor que empieza por shpss_, que no es un token sino el Client secret. La app lo daba por eterno, nunca pedia uno con el Client ID que si funcionaba, y todas las llamadas morian con un 401 que encima acusaba a la instalacion de la app.",
-    "Ahora un token que no empiece por shpat_ se descarta con el motivo escrito, y si el token caduca a las 24 horas la app pide otro y reintenta una vez en vez de rendirse.",
-    "El texto de ayuda tambien estaba mal: mandaba a partners.shopify.com cuando el Dev Dashboard esta en dev.shopify.com/dashboard, y guiaba por el camino que Shopify ya cerro. Ahora dice desde el principio que son dos vias y que se rellena una sola."
+    "Los titulares se pegaban al parrafo siguiente y salian en mayusculas porque nuestra hoja nunca declaraba display ni text-transform: se apoyaba en el valor por defecto del navegador. GemPages trae su propio reseteo y lo cambia, y ahi no hay peso de selector que valga: no se puede pisar una regla con una regla que no existe. Ahora se declara todo lo que damos por hecho.",
+    "Los cinco videos salian como un rectangulo en blanco porque ninguno tenia portada. Ahora se saca el primer fotograma y se guarda como poster, recortado al hueco igual que el video. Se hace al ANALIZAR y no al optimizar, para que tambien la tengan los videos que ya estan finos y no se van a tocar.",
+    "El estado de Shopify mentia: con el Client secret pegado en la casilla del token, la cabecera pintaba conectado en verde mientras todo moria con un 401. Ahora solo cuenta un shpat_ de verdad.",
+    "Y el texto de ayuda seguia mal: Shopify cerro las apps de admin el 1 de enero de 2026 para TODAS las tiendas, no solo las nuevas, y Desarrollar apps sigue apareciendo aunque no puedas crear ninguna, asi que mi senal para saltar a la otra via mandaba a la via muerta."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.51.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.51.0/LANDING-AI-1.51.0.zip",
-  "bytes": 157237096
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.52.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.52.0/LANDING-AI-1.52.0.zip",
+  "bytes": 157243252
 }
