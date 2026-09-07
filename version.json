@@ -1,15 +1,15 @@
 {
-  "version": "1.54.0",
+  "version": "1.55.0",
   "fecha": "2026-09-07",
-  "titulo": "Que la vista previa y GemPages se vean igual, y medido",
+  "titulo": "Las tipografias no cargaban: toda la landing salia en Georgia",
   "notas": [
-    "Metí una prueba nueva: npm run paridad monta el export como lo monta GemPages y le pone encima el reseteo real de tu tienda, y compara contra la vista previa propiedad a propiedad. De unas 100 diferencias a 13, sobre 14.620 comprobaciones. Doce de esas trece son de subpixel y una es el mismo color sobre otro fondo.",
-    "Lo gordo que encontro: al partir la hoja en 21 secciones, una regla base viaja en las 21 y una de componente vive en UNA, asi que con el mismo peso mandaba la base. Medido: la regla de li salia 21 veces contra la del hero una sola, y las vinetas perdian su maquetacion. Igual dejaba el rojo del Sin BBL Aguaje en color tinta.",
-    "Arreglado bajando todas las reglas base para que no puedan ganarle a nada tuyo, y poniendo el suelo contra el reseteo de GemPages con el peso exacto: por encima de ellos y por debajo de tus estilos.",
-    "Y las propiedades que se heredan van a inherit y no a un valor fijo: poner un valor fijo mataba la herencia y un span dentro de un kicker perdia el espaciado del padre.",
-    "Comprobado que la vista previa sigue igual: titulares 31 y 27px, boton 15,5px con su radio, vinetas en rejilla, chip de ingredientes a 12,5px y las estrellas con su espaciado."
+    "El @import de Google Fonts salia cortado por la mitad. El repartidor buscaba el final de la regla en el primer punto y coma, y esa URL lleva puntos y coma dentro (wght@400;500;700). El navegador tiraba el import entero y el resto de la URL se colaba como si fueran reglas. Esto rompia las fuentes desde antes de todo lo de estos dias.",
+    "Medido con el arreglo: una peticion con la URL entera, 924 caras de fuente registradas donde antes habia cero, y Fraunces e Inter usandose de verdad.",
+    "La via que la pantalla llama recomendada no llevaba ninguno de los arreglos: mandaba el CSS crudo, asi que dentro de GemPages se veia como antes de todo. Ahora lleva el mismo blindaje que las otras dos.",
+    "La cinta de resenas se paraba porque el max-width que GemPages pone a todo capa su ancho; el hero parpadeaba porque la clase de las animaciones llegaba segundos tarde; la barra fija de compra no se encendia nunca y dejaba un hueco de 80 px; y los carruseles que montan tarde salian sin puntos y con la flecha derecha muerta.",
+    "Paridad final entre la vista previa y el entorno de GemPages: 15 diferencias de 14.620 comprobaciones, y trece son de una centesima de pixel."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.54.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.54.0/LANDING-AI-1.54.0.zip",
-  "bytes": 157244663
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.55.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.55.0/LANDING-AI-1.55.0.zip",
+  "bytes": 157245875
 }
