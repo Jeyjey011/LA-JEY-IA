@@ -1,14 +1,15 @@
 {
-  "version": "1.53.0",
+  "version": "1.54.0",
   "fecha": "2026-09-07",
-  "titulo": "Los textos deformes y los videos en blanco",
+  "titulo": "Que la vista previa y GemPages se vean igual, y medido",
   "notas": [
-    "Medi tu pagina publicada contra la vista previa: 310 elementos, 19 propiedades distintas. Los textos deformes eran letter-spacing: el tema de Shopify le mete 2px a botones y spans, 196 elementos de tu pagina con el texto estirado, y nosotros no lo declarabamos.",
-    "Arreglado con un suelo en :where(), que a proposito no suma peso: cualquier clase nuestra le gana, pero contra el tema basta. Probado inyectandolo en tu pagina: 196 elementos con el texto estirado pasan a 0.",
-    "El video del timeline llamaba a play() sin subir el preload, y como el HTML sale con preload none para no bajarse ocho megas de golpe, el clip se quedaba sin cargar y salia el hueco en blanco con el boton de recargar. El carril de resenas si lo hacia bien; ahora los dos igual.",
-    "Comprobado que no te cambio el diseno: el chip de ingredientes sigue a 12,5px, las flechas a 42x42, la cara del video a 335x53 y los kickers en mayusculas con su espaciado."
+    "Metí una prueba nueva: npm run paridad monta el export como lo monta GemPages y le pone encima el reseteo real de tu tienda, y compara contra la vista previa propiedad a propiedad. De unas 100 diferencias a 13, sobre 14.620 comprobaciones. Doce de esas trece son de subpixel y una es el mismo color sobre otro fondo.",
+    "Lo gordo que encontro: al partir la hoja en 21 secciones, una regla base viaja en las 21 y una de componente vive en UNA, asi que con el mismo peso mandaba la base. Medido: la regla de li salia 21 veces contra la del hero una sola, y las vinetas perdian su maquetacion. Igual dejaba el rojo del Sin BBL Aguaje en color tinta.",
+    "Arreglado bajando todas las reglas base para que no puedan ganarle a nada tuyo, y poniendo el suelo contra el reseteo de GemPages con el peso exacto: por encima de ellos y por debajo de tus estilos.",
+    "Y las propiedades que se heredan van a inherit y no a un valor fijo: poner un valor fijo mataba la herencia y un span dentro de un kicker perdia el espaciado del padre.",
+    "Comprobado que la vista previa sigue igual: titulares 31 y 27px, boton 15,5px con su radio, vinetas en rejilla, chip de ingredientes a 12,5px y las estrellas con su espaciado."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.53.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.53.0/LANDING-AI-1.53.0.zip",
-  "bytes": 157243900
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.54.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.54.0/LANDING-AI-1.54.0.zip",
+  "bytes": 157244663
 }
