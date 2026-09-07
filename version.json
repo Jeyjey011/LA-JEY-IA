@@ -1,14 +1,14 @@
 {
-  "version": "1.52.0",
+  "version": "1.53.0",
   "fecha": "2026-09-07",
-  "titulo": "Los titulares ya no se pegan, y los videos ensenan su portada",
+  "titulo": "Los textos deformes y los videos en blanco",
   "notas": [
-    "Los titulares se pegaban al parrafo siguiente y salian en mayusculas porque nuestra hoja nunca declaraba display ni text-transform: se apoyaba en el valor por defecto del navegador. GemPages trae su propio reseteo y lo cambia, y ahi no hay peso de selector que valga: no se puede pisar una regla con una regla que no existe. Ahora se declara todo lo que damos por hecho.",
-    "Los cinco videos salian como un rectangulo en blanco porque ninguno tenia portada. Ahora se saca el primer fotograma y se guarda como poster, recortado al hueco igual que el video. Se hace al ANALIZAR y no al optimizar, para que tambien la tengan los videos que ya estan finos y no se van a tocar.",
-    "El estado de Shopify mentia: con el Client secret pegado en la casilla del token, la cabecera pintaba conectado en verde mientras todo moria con un 401. Ahora solo cuenta un shpat_ de verdad.",
-    "Y el texto de ayuda seguia mal: Shopify cerro las apps de admin el 1 de enero de 2026 para TODAS las tiendas, no solo las nuevas, y Desarrollar apps sigue apareciendo aunque no puedas crear ninguna, asi que mi senal para saltar a la otra via mandaba a la via muerta."
+    "Medi tu pagina publicada contra la vista previa: 310 elementos, 19 propiedades distintas. Los textos deformes eran letter-spacing: el tema de Shopify le mete 2px a botones y spans, 196 elementos de tu pagina con el texto estirado, y nosotros no lo declarabamos.",
+    "Arreglado con un suelo en :where(), que a proposito no suma peso: cualquier clase nuestra le gana, pero contra el tema basta. Probado inyectandolo en tu pagina: 196 elementos con el texto estirado pasan a 0.",
+    "El video del timeline llamaba a play() sin subir el preload, y como el HTML sale con preload none para no bajarse ocho megas de golpe, el clip se quedaba sin cargar y salia el hueco en blanco con el boton de recargar. El carril de resenas si lo hacia bien; ahora los dos igual.",
+    "Comprobado que no te cambio el diseno: el chip de ingredientes sigue a 12,5px, las flechas a 42x42, la cara del video a 335x53 y los kickers en mayusculas con su espaciado."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.52.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.52.0/LANDING-AI-1.52.0.zip",
-  "bytes": 157243252
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.53.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.53.0/LANDING-AI-1.53.0.zip",
+  "bytes": 157243900
 }
