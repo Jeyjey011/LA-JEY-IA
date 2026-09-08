@@ -1,13 +1,13 @@
 {
-  "version": "1.56.0",
-  "fecha": "2026-09-07",
-  "titulo": "Los titulares vuelven a ser Fraunces, y los videos vuelven a tener caja",
+  "version": "1.57.0",
+  "fecha": "2026-09-08",
+  "titulo": "La salida de Shopify tambien queda blindada",
   "notas": [
-    "La tipografia de los titulares la pisaba el tema de la tienda: nuestras reglas base pesaban CERO y un h1 pelado del tema, que pesa una miseria, les ganaba. Medido en la tienda: 13 reglas base perdiendo en 38 propiedades. Toda la landing salia con la letra del tema en vez de Fraunces.",
-    "Los videos se quedaban sin alto: GemPages trae .gps video con height auto y le ganaba a nuestro height 100 por ciento. Con preload none un video no tiene contenido todavia, asi que el alto salia CERO. Medido: los cuatro videos de resenas a 286x0 px.",
-    "El arnes de paridad no detectaba nada de esto porque solo imitaba los selectores de GemPages, nunca las etiquetas peladas del tema. Ahora las lleva, y con ellas: 15.384 comprobaciones, 1 sola diferencia real."
+    "Faltaba una via. La de GemPages quedo corregida en la 1.56.0, pero la de SHOPIFY —el .liquid que se instala como seccion del tema y la descripcion de producto— seguia saliendo con el CSS crudo, y son las que se meten dentro de tema-glamurify. Mismo fallo: reglas base a peso CERO y el h1 pelado del tema llevandoselas por delante.",
+    "El motivo de que se me pasara: el interruptor se llamaba paraGemPages, y Shopify no es GemPages. Lo que pide el blindaje no es GemPages, es estar metido en el tema de otro. Ahora se llama enAnfitrion, y el cerrojo de arranque va aparte porque ese si es solo de GemPages.",
+    "Verificado contra un tema hostil: 380 elementos emparejados y CERO diferencias contra la vista previa por las dos vias, 5.054 comprobaciones en GemPages y 5.320 en Shopify."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.56.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.56.0/LANDING-AI-1.56.0.zip",
-  "bytes": 157247735
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.57.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.57.0/LANDING-AI-1.57.0.zip",
+  "bytes": 157247771
 }
