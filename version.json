@@ -1,13 +1,13 @@
 {
-  "version": "1.58.0",
+  "version": "1.59.0",
   "fecha": "2026-09-08",
-  "titulo": "Los videos en Shopify, el nombre de cada landing y tu skill de CRO enchufado",
+  "titulo": "El choque de nombres que descolocaba el hero entero",
   "notas": [
-    "VIDEOS EN SHOPIFY: para decidir si un hueco es video se miraba que el nombre TERMINARA en .mp4, y las URL del CDN de Shopify terminan en ?v=1788764664. Asi que el clip se pintaba como <img>, o sea un recuadro negro con el texto alternativo encima. Medido en tu tema: 57 imagenes, CINCO con un .mp4 dentro y CERO etiquetas <video>. Por GemPages no pasaba porque esas URL acaban limpias en .mp4.",
-    "EL NOMBRE DE LA PLANTILLA sale ahora del proyecto: BBL AGUAJE entra como bbl-aguaje. Antes TODAS se llamaban landing-ai, asi que la segunda landing que publicabas pisaba a la primera y el producto anterior se quedaba apuntando a una plantilla que ya era de otro. Si el nombre esta ocupado va -2, -3, -4, y el elegido se guarda en el proyecto para que volver a publicar sobreescriba lo tuyo y no cree una copia.",
-    "TU SKILL DE CRO ya se ejecuta. Estaba copiado en referencias/ y no lo leia nadie: habia una version escrita a mano que pedia CINCO apartados en vez de seis, y ademas la funcion que llamaba a Claude no la invocaba ni la app ni la consola. Ahora va literal, con los seis apartados y el checklist, y el verificador se planta si alguien lo desvia del tuyo."
+    "GemPages usa --d como el DISPLAY de un elemento: tiene una regla suya que dice que a cualquiera que lleve --d en su style le pone display:var(--d). Nosotros usabamos --d para el retardo de las animaciones. Asi que style=--d:140ms se leia como display:140ms, que no vale, y el elemento caia a display INLINE.",
+    "Eso es lo que pegaba el subtitulo detras del titular en la misma linea, y lo que descolocaba el bloque de compra, que tambien lleva retardo. No era cuestion de peso -su selector gana al nuestro- sino de llamarse igual: ahora se llaman --la-d y --la-dg. Dentro de la casa de otro, las variables propias van con apellido.",
+    "La regla de GemPages queda metida en el arnes de paridad para que esto se cace el mismo dia. Verificado: 649 elementos emparejados y CERO diferencias contra la vista previa por las dos vias, 6.748 comprobaciones en GemPages y 9.072 en Shopify. Cero elementos caidos a inline, antes se caia el hero entero."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.58.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.58.0/LANDING-AI-1.58.0.zip",
-  "bytes": 157251745
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.59.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.59.0/LANDING-AI-1.59.0.zip",
+  "bytes": 157252358
 }
