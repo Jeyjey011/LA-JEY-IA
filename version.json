@@ -1,13 +1,12 @@
 {
-  "version": "1.59.0",
-  "fecha": "2026-09-08",
-  "titulo": "El choque de nombres que descolocaba el hero entero",
+  "version": "1.59.1",
+  "fecha": "2026-09-09",
+  "titulo": "Corrección de Redactar landing en Windows",
   "notas": [
-    "GemPages usa --d como el DISPLAY de un elemento: tiene una regla suya que dice que a cualquiera que lleve --d en su style le pone display:var(--d). Nosotros usabamos --d para el retardo de las animaciones. Asi que style=--d:140ms se leia como display:140ms, que no vale, y el elemento caia a display INLINE.",
-    "Eso es lo que pegaba el subtitulo detras del titular en la misma linea, y lo que descolocaba el bloque de compra, que tambien lleva retardo. No era cuestion de peso -su selector gana al nuestro- sino de llamarse igual: ahora se llaman --la-d y --la-dg. Dentro de la casa de otro, las variables propias van con apellido.",
-    "La regla de GemPages queda metida en el arnes de paridad para que esto se cace el mismo dia. Verificado: 649 elementos emparejados y CERO diferencias contra la vista previa por las dos vias, 6.748 comprobaciones en GemPages y 9.072 en Shopify. Cero elementos caidos a inline, antes se caia el hero entero."
+    "Corregido el error de ruta indefinida que impedía iniciar Redactar landing en la aplicación empaquetada.",
+    "Verificado con el ejecutable real y pruebas de redacción simulada sin consumir créditos de IA."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.59.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.59.0/LANDING-AI-1.59.0.zip",
-  "bytes": 157252358
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.59.1",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.59.1/LANDING-AI-1.59.1.zip",
+  "bytes": 157253158
 }
