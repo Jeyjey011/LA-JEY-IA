@@ -1,14 +1,14 @@
 {
-  "version": "1.61.0",
+  "version": "1.62.0",
   "fecha": "2026-09-10",
-  "titulo": "Un producto nuevo ya no hereda la ficha del anterior",
+  "titulo": "La ficha manda: de ella salen el casting, las zonas, la paleta y la tipografia",
   "notas": [
-    "AL CREAR UN PRODUCTO se copiaba el config entero y solo se vaciaban las imagenes y los variantId. Todo lo demas viajaba del producto anterior: la ficha, el casting, las zonas con sus prompts de video y el molde del antes/despues. Por eso Happy Cleaner -un limpiador de hogar- tenia de beneficios Mas volumen en gluteos, piernas, caderas definidas, y GLADIADOR tenia casting.sexo mujer. Ahora todo eso nace vacio.",
-    "LA COPY NO SE TOCA. Crear es una landing nueva DESDE la actual y esa estructura es justo lo que se reaprovecha: los titulares, las secciones y las palabras del dueno siguen ahi. Lo que se vacia es solo lo que dirige las imagenes y no se ve en pantalla.",
-    "AVISO ANTES DE PAGAR. Con el publico o los beneficios vacios, generar imagenes se para con un mensaje en vez de devolver fotos genericas. Y el examen trae tres comprobaciones nuevas: ficha a medias, ficha que se contradice con el casting o con el molde, y ficha identica palabra por palabra a la de otro proyecto -que es como se detecta una heredada entera, porque esa no se contradice con nada-.",
-    "Probado creando un producto en el banco a partir del GLADIADOR: ficha vacia, casting vacio, cero zonas, molde deducido en vez de heredado, y el titular intacto. Sus cuatro proyectos siguen sin tocar."
+    "DOS CAMPOS NUEVOS EN LA FICHA: Que se ve en el ANTES y Que se ve en el DESPUES. Vacios, la app sigue deduciendolo de los beneficios como hasta ahora. Escritos, MANDAN ELLOS por encima de todo lo deducido, y tu frase viaja entera al encargo sin que nadie la reescriba. Hasta ahora no habia donde decir eso: solo se podia pelear con el resultado, generando otra vez y pagando otra vez.",
+    "BOTON APLICAR LA FICHA AL RESTO, en el paso Producto. Lee lo que escribiste y propone el casting, el molde del antes/despues, las zonas con sus prompts de video, la apariencia de las seis resenas, la paleta y la tipografia. Te lo ensena al lado de lo que hay ahora y eliges parte por parte lo que te quedas. No hay aplicar todo a ciegas: sobreescribir sin ensenar es justo lo que dejo un casting de otro producto vivo durante meses.",
+    "NO TOCA TU COPY. Ni un titular, ni una promesa, ni el texto de una resena, ni un precio. Lo que devuelve es direccion de foto: a quien hay que fotografiar y que tiene que verse.",
+    "Probado con la ficha del GLADIADOR, que estaba bien puesta. Propone: casting de mujer a HOMBRE de 30 a 55 con cuerpo real de trabajador; molde de delgada a NINGUNO porque los beneficios son vigor y energia, no cambio de forma; el antes y el despues frente al espejo del bano -hombros caidos contra erguido y mirada firme-, sin nada explicito y respetando tu campo evitar; seis zonas nuevas con sus prompts de video en ingles hablando de postura en vez de busto y gluteos; seis hombres distintos para las resenas; paleta de rojos profundos sobre negro y Cinzel para los titulares."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.61.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.61.0/LANDING-AI-1.61.0.zip",
-  "bytes": 157258563
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.62.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.62.0/LANDING-AI-1.62.0.zip",
+  "bytes": 157262884
 }
