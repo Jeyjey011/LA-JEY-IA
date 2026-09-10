@@ -1,14 +1,13 @@
 {
-  "version": "1.64.0",
+  "version": "1.65.0",
   "fecha": "2026-09-10",
-  "titulo": "Quitadas las reglas de vestuario que no habias pedido",
+  "titulo": "El variantId deja de pedirse cuando el checkout es EasySell",
   "notas": [
-    "Habia metido tres reglas mias en los prompts que tu no pediste: No nudity en la regla del cuerpo masculino, No nudity and nothing see-through en el vestuario del catalogo de modelos, y un parrafo entero de Nada explicito en el prompt que lee la ficha. Fuera las tres. Esta app es tuya y las reglas las pones tu.",
-    "Lo que queda decidiendo el vestuario es el DIAL, una sola vez y en positivo: Wearing: plain fitted boxer briefs in a solid neutral colour, nothing on the torso. Y para las mujeres sigue exactamente tu LENCERIA de siempre, sin tocar una coma.",
-    "El campo evitar de tu ficha si se sigue respetando como orden, porque ese lo escribes tu.",
-    "Verificado: BBL 0 de 51 encargos cambiados, GLADIADOR 29 de 51, y los nueve modulos cargan."
+    "Con EasySell ese dato no lo usa nadie: el runtime pone href='#' en los botones y deja que el script de EasySell lea el producto del contexto de la pagina. Nunca se arma un enlace de checkout, asi que el variantId sobra. Pedirlo igual era una alarma falsa que salia en el build, en el examen y en el rail de pasos, y ademas bajaba la nota sin que hubiera nada roto.",
+    "Quitado de los cuatro sitios donde se exigia: el aviso del build, el aviso propio de easysell -que ademas decia algo que no era cierto, que EasySell no sabria que variante cargar-, la comprobacion roja del examen y el paso Oferta del rail, que ahora se da por hecho y dice EasySell (no necesita variantId).",
+    "Se mantiene para el checkout nativo de Shopify, donde sin variantId el boton si esta roto de verdad: comprobado con el mismo config cambiando el modo, con EasySell 0 avisos y con Shopify sigue saliendo."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.64.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.64.0/LANDING-AI-1.64.0.zip",
-  "bytes": 157262948
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.65.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.65.0/LANDING-AI-1.65.0.zip",
+  "bytes": 157263050
 }
