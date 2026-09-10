@@ -1,13 +1,14 @@
 {
-  "version": "1.65.0",
+  "version": "1.66.0",
   "fecha": "2026-09-10",
-  "titulo": "El variantId deja de pedirse cuando el checkout es EasySell",
+  "titulo": "Las paletas se miden antes de aplicarse: la letra siempre se lee",
   "notas": [
-    "Con EasySell ese dato no lo usa nadie: el runtime pone href='#' en los botones y deja que el script de EasySell lea el producto del contexto de la pagina. Nunca se arma un enlace de checkout, asi que el variantId sobra. Pedirlo igual era una alarma falsa que salia en el build, en el examen y en el rail de pasos, y ademas bajaba la nota sin que hubiera nada roto.",
-    "Quitado de los cuatro sitios donde se exigia: el aviso del build, el aviso propio de easysell -que ademas decia algo que no era cierto, que EasySell no sabria que variante cargar-, la comprobacion roja del examen y el paso Oferta del rail, que ahora se da por hecho y dice EasySell (no necesita variantId).",
-    "Se mantiene para el checkout nativo de Shopify, donde sin variantId el boton si esta roto de verdad: comprobado con el mismo config cambiando el modo, con EasySell 0 avisos y con Shopify sigue saliendo."
+    "EL FALLO. Aplicaste la ficha al GLADIADOR y las letras no se veian. Dos causas y las dos mias. Primera: el fondo de la landing es BLANCO FIJO -en theme.mjs esta escrito .la{color:var(--text);background:#fff}, no hay tema oscuro- y la paleta que propuse traia el texto en crema. Crema sobre blanco es contraste 1.16. No es poco contraste: es que no se ve nada. Segunda: pedi solo 8 de las 11 claves de color, asi que orangeSoft, greenDark y red se quedaron con los valores viejos y quedo media paleta nueva mezclada con media vieja.",
+    "NUEVO src/paleta.mjs. Mide el contraste de los pares que el CSS pinta de verdad -los saque de theme.mjs, no de mi cabeza: llegue a revisar orangeSoft, que no se usa ni una vez en toda la hoja- y arregla lo que no llegue, aclarando u oscureciendo sin cambiar de tono. Los minimos estan calibrados contra el tema del BBL: es el mas alto que tu landing que funciona pasa entera, 0 avisos, y por tanto no te va a cambiar nada de lo que ya vendes.",
+    "Ahora se piden las once claves y se le dice al modelo la regla de la pagina: el fondo es blanco, el texto tiene que ser oscuro, soft casi blanco, ink oscuro, y el acento lo bastante oscuro para que la letra blanca del boton se lea. Probado: la nueva propuesta del GLADIADOR sale legible de origen -texto #241512, soft #faf3ee, acento rojo profundo- con CERO reparaciones y todos los pares correctos, y mantiene la estetica gladiador con el ink y el acento en vez de invertir el texto.",
+    "La pantalla dice ahora si la paleta paso el contraste o cuantos colores hubo que ajustar."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.65.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.65.0/LANDING-AI-1.65.0.zip",
-  "bytes": 157263050
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.66.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.66.0/LANDING-AI-1.66.0.zip",
+  "bytes": 157265742
 }
