@@ -1,14 +1,14 @@
 {
-  "version": "1.60.0",
+  "version": "1.61.0",
   "fecha": "2026-09-10",
-  "titulo": "El antes y despues sale de la ficha, sea cual sea el producto",
+  "titulo": "Un producto nuevo ya no hereda la ficha del anterior",
   "notas": [
-    "EL SUJETO YA NO ESTA ESCRITO A MANO. La palabra MUJER estaba quemada en unos cincuenta sitios de briefs, prompts, poses y escenas: frases como LA MISMA mujer del antes, maquillaje natural, tiene que verse guapa. Por eso el GLADIADOR salia con una mujer aunque su ficha dijera Hombre latino de 30 a 55. Ahora el sujeto lo decide la ficha (producto.publico) y si el casting guardado la contradice, se avisa.",
-    "DE QUE ES LA TRANSFORMACION, TAMBIEN DE LA FICHA. ia.antes elegia el molde -dar forma, adelgazar, tonificar, o ninguno para cabello y unas- pero no lo derivaba nadie: se copiaba del proyecto anterior. Los CUATRO productos tenian delgada guardado, incluido un limpiador de hogar: a un limpiador se le pedia un cuerpo con gluteos, cintura y busto. Ahora se deduce de los beneficios, y sin pistas el defecto es ninguno, no delgada.",
-    "Y EL ENCUADRE SE ADAPTA. Un producto de unas ya no pide una persona de cuerpo entero: pide un primer plano de las dos manos. Igual con cabello, barba, piel, pestanas y dientes. Probado con cuatro productos inventados -unas, barba, adelgazar y un limpiador- y cada uno sale con su sujeto, su molde y su encuadre.",
-    "Sin tocar sus landings: guarde los 51 encargos del BBL antes de empezar y al final salen palabra por palabra iguales, 0 de 51 cambiados. Del GLADIADOR se corrigieron 29 de 51."
+    "AL CREAR UN PRODUCTO se copiaba el config entero y solo se vaciaban las imagenes y los variantId. Todo lo demas viajaba del producto anterior: la ficha, el casting, las zonas con sus prompts de video y el molde del antes/despues. Por eso Happy Cleaner -un limpiador de hogar- tenia de beneficios Mas volumen en gluteos, piernas, caderas definidas, y GLADIADOR tenia casting.sexo mujer. Ahora todo eso nace vacio.",
+    "LA COPY NO SE TOCA. Crear es una landing nueva DESDE la actual y esa estructura es justo lo que se reaprovecha: los titulares, las secciones y las palabras del dueno siguen ahi. Lo que se vacia es solo lo que dirige las imagenes y no se ve en pantalla.",
+    "AVISO ANTES DE PAGAR. Con el publico o los beneficios vacios, generar imagenes se para con un mensaje en vez de devolver fotos genericas. Y el examen trae tres comprobaciones nuevas: ficha a medias, ficha que se contradice con el casting o con el molde, y ficha identica palabra por palabra a la de otro proyecto -que es como se detecta una heredada entera, porque esa no se contradice con nada-.",
+    "Probado creando un producto en el banco a partir del GLADIADOR: ficha vacia, casting vacio, cero zonas, molde deducido en vez de heredado, y el titular intacto. Sus cuatro proyectos siguen sin tocar."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.60.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.60.0/LANDING-AI-1.60.0.zip",
-  "bytes": 157257432
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.61.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.61.0/LANDING-AI-1.61.0.zip",
+  "bytes": 157258563
 }
