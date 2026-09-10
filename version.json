@@ -1,12 +1,14 @@
 {
-  "version": "1.59.1",
-  "fecha": "2026-09-09",
-  "titulo": "Corrección de Redactar landing en Windows",
+  "version": "1.60.0",
+  "fecha": "2026-09-10",
+  "titulo": "El antes y despues sale de la ficha, sea cual sea el producto",
   "notas": [
-    "Corregido el error de ruta indefinida que impedía iniciar Redactar landing en la aplicación empaquetada.",
-    "Verificado con el ejecutable real y pruebas de redacción simulada sin consumir créditos de IA."
+    "EL SUJETO YA NO ESTA ESCRITO A MANO. La palabra MUJER estaba quemada en unos cincuenta sitios de briefs, prompts, poses y escenas: frases como LA MISMA mujer del antes, maquillaje natural, tiene que verse guapa. Por eso el GLADIADOR salia con una mujer aunque su ficha dijera Hombre latino de 30 a 55. Ahora el sujeto lo decide la ficha (producto.publico) y si el casting guardado la contradice, se avisa.",
+    "DE QUE ES LA TRANSFORMACION, TAMBIEN DE LA FICHA. ia.antes elegia el molde -dar forma, adelgazar, tonificar, o ninguno para cabello y unas- pero no lo derivaba nadie: se copiaba del proyecto anterior. Los CUATRO productos tenian delgada guardado, incluido un limpiador de hogar: a un limpiador se le pedia un cuerpo con gluteos, cintura y busto. Ahora se deduce de los beneficios, y sin pistas el defecto es ninguno, no delgada.",
+    "Y EL ENCUADRE SE ADAPTA. Un producto de unas ya no pide una persona de cuerpo entero: pide un primer plano de las dos manos. Igual con cabello, barba, piel, pestanas y dientes. Probado con cuatro productos inventados -unas, barba, adelgazar y un limpiador- y cada uno sale con su sujeto, su molde y su encuadre.",
+    "Sin tocar sus landings: guarde los 51 encargos del BBL antes de empezar y al final salen palabra por palabra iguales, 0 de 51 cambiados. Del GLADIADOR se corrigieron 29 de 51."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.59.1",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.59.1/LANDING-AI-1.59.1.zip",
-  "bytes": 157253158
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.60.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.60.0/LANDING-AI-1.60.0.zip",
+  "bytes": 157257432
 }
