@@ -1,14 +1,14 @@
 {
-  "version": "1.69.0",
+  "version": "1.70.0",
   "fecha": "2026-09-10",
-  "titulo": "La app se da cuenta sola: cambias la ficha y rehace la landing entera",
+  "titulo": "El redactor sale del automatico, y el rosa del BBL deja de estar escrito a fuego",
   "notas": [
-    "YA NO HAY QUE PULSAR NADA. La app lleva una huella de la ficha -sacada del nombre, el publico, los beneficios y el antes/despues- y la compara con la de lo ultimo que derivo. Al abrir un proyecto y cuatro segundos despues de que dejes de escribir en la ficha, si no coinciden rehace la landing entera sola.",
-    "POR QUE ASI Y NO CON UN BOTON: el boton existia y habia que acordarse. Acordarse no es una funcion. GLADIADOR estuvo semanas con el casting del BBL, una flor en las vinnetas de un producto de hombres y un bisturi entre los rivales, porque nadie pulso nada — y no habia forma de enterarse mirando la pantalla, solo mirando las imagenes ya pagadas.",
-    "LA LANDING ENTERA, EN UNA SOLA ORDEN. Las dos mitades existian sueltas: redactar() escribe toda la copy desde la ficha y derivar() la direccion de imagen. Ahora van juntas y en el orden que importa: PRIMERO la direccion de imagen, porque de ahi salen las zonas, y DESPUES la copy, que escribe los rotulos de esas zonas. Al reves, la copy hablaria de las zonas del producto anterior.",
-    "La huella se sella AL FINAL: si algo revienta a mitad no se marca como al dia, y el proximo arranque lo vuelve a intentar. Con la ficha a medias no deriva nada y te dice que falta, en vez de generar generico y borrarte lo que hubiera."
+    "TE REESCRIBI LA COPY Y NO DEBI. Encadene el redactor detras del automatico para que la ficha hiciera la landing entera. Medido contra tu copia anterior: no borro nada -0 campos vacios- pero REESCRIBIO 41 textos tuyos, y ablandandolos: donde ponia Se acaba la eyaculacion precoz salio Se acaba lo de terminar rapido. Fuera del automatico. El redactor sigue con su boton, que es donde tu decides usarlo.",
+    "TU ANTES Y DESPUES SE QUEDAN. Esos dos campos de la ficha los puse para que TU dijeras que foto quieres, con la promesa de que si estaban escritos mandaban ellos, y luego el automatico los pisaba con la version deducida. Ahora solo se rellenan si estan VACIOS.",
+    "LO DE A MEDIAS TENIAS RAZON. Habia una familia entera de rosas del BBL escritos a fuego para el texto sobre las secciones oscuras: 8 usos de #ffc7db en acentos y cifras, 4 de #c9b6c1 en el secundario, 3 de #e8dbe2 en el cuerpo. Veinticuatro literales que no seguian la paleta, asi que en tu landing de hombres con el ink marron salia texto rosa y no habia forma de cambiarlo. Ahora son tres variables del tema -inkText, inkMuted, inkAccent- que la ficha propone y el medidor de contraste vigila.",
+    "Sin tocar el BBL: los valores por defecto son los de siempre letra por letra, comprobado que su --ink-accent sigue saliendo #ffc7db y que sus 51 encargos no cambian."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.69.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.69.0/LANDING-AI-1.69.0.zip",
-  "bytes": 157269779
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.70.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.70.0/LANDING-AI-1.70.0.zip",
+  "bytes": 157270250
 }
