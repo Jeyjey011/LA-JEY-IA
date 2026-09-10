@@ -1,14 +1,15 @@
 {
-  "version": "1.66.0",
+  "version": "1.67.0",
   "fecha": "2026-09-10",
-  "titulo": "Las paletas se miden antes de aplicarse: la letra siempre se lee",
+  "titulo": "La tipografia del tema ahora se descarga de verdad",
   "notas": [
-    "EL FALLO. Aplicaste la ficha al GLADIADOR y las letras no se veian. Dos causas y las dos mias. Primera: el fondo de la landing es BLANCO FIJO -en theme.mjs esta escrito .la{color:var(--text);background:#fff}, no hay tema oscuro- y la paleta que propuse traia el texto en crema. Crema sobre blanco es contraste 1.16. No es poco contraste: es que no se ve nada. Segunda: pedi solo 8 de las 11 claves de color, asi que orangeSoft, greenDark y red se quedaron con los valores viejos y quedo media paleta nueva mezclada con media vieja.",
-    "NUEVO src/paleta.mjs. Mide el contraste de los pares que el CSS pinta de verdad -los saque de theme.mjs, no de mi cabeza: llegue a revisar orangeSoft, que no se usa ni una vez en toda la hoja- y arregla lo que no llegue, aclarando u oscureciendo sin cambiar de tono. Los minimos estan calibrados contra el tema del BBL: es el mas alto que tu landing que funciona pasa entera, 0 avisos, y por tanto no te va a cambiar nada de lo que ya vendes.",
-    "Ahora se piden las once claves y se le dice al modelo la regla de la pagina: el fondo es blanco, el texto tiene que ser oscuro, soft casi blanco, ink oscuro, y el acento lo bastante oscuro para que la letra blanca del boton se lea. Probado: la nueva propuesta del GLADIADOR sale legible de origen -texto #241512, soft #faf3ee, acento rojo profundo- con CERO reparaciones y todos los pares correctos, y mantiene la estetica gladiador con el ink y el acento en vez de invertir el texto.",
-    "La pantalla dice ahora si la paleta paso el contraste o cuantos colores hubo que ajustar."
+    "MIRE LA PREVIEW COMO ME DIJO Y AHI ESTABA. La ficha SI cambiaba la tipografia -la variable --font-display decia Cinzel y el h1 computaba Cinzel- pero las unicas fuentes cargadas en la pagina eran Fraunces e Inter. Cinzel no se descargaba NUNCA, asi que el navegador caia a un serif cualquiera y el titular salia con una tipografia que no eligio nadie.",
+    "LA CAUSA: la URL de Google Fonts estaba escrita a fuego en render.mjs pidiendo Inter y Fraunces, y punto. Daba igual lo que dijera el tema. Ahora se construye con las familias que el tema nombra de verdad.",
+    "SIN TOCAR SU BBL: Fraunces es una fuente variable con eje optico y la hoja lo usa -font-variation-settings opsz 40 en los titulares-. Pidiendola con un wght pelado se perdia ese eje y su landing habria cambiado de aspecto por un arreglo que no iba con ella. Se pide exactamente como se pedia siempre: comprobado que la URL del BBL sale identica byte a byte.",
+    "Y la ficha ahora pide las tipografias CON su pila de respaldo -Cinzel, Georgia, serif y no Cinzel a secas-, para que si una fuente no llega a cargar se lea el respaldo y no lo que el navegador decida.",
+    "Verificado en la preview: familias cargadas Cinzel e Inter, el h1 en Cinzel, y medido que es distinta del respaldo (861 px contra 785)."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.66.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.66.0/LANDING-AI-1.66.0.zip",
-  "bytes": 157265742
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.67.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.67.0/LANDING-AI-1.67.0.zip",
+  "bytes": 157266527
 }
