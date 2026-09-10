@@ -1,14 +1,14 @@
 {
-  "version": "1.68.0",
+  "version": "1.69.0",
   "fecha": "2026-09-10",
-  "titulo": "Recorri la landing entera midiendo el contraste de cada texto, y los iconos ya salen de la ficha",
+  "titulo": "La app se da cuenta sola: cambias la ficha y rehace la landing entera",
   "notas": [
-    "RECORRI LA LANDING COMPLETA como pediste: 451 elementos con texto, midiendo el color de cada uno contra el fondo que tiene DEBAJO de verdad -componiendo las capas semitransparentes, que es donde mi primera pasada se equivocaba y daba 66 problemas falsos-. De los reales, casi todos resultaron ser los marcadores de fotos sin generar (el recuadro con la camarita) o cosas decorativas a proposito: los numeros gigantes al 16 por ciento, las etiquetas de zona al 50, el HUD de la cinta que va ENCIMA de una foto y solo falla porque la foto no esta.",
-    "EL UNICO FALLO DE VERDAD, con contenido real y sin depender de ninguna foto: la columna del competidor de la tabla comparativa -los No lleva, Sabor quimico, Piden anticipo- estaba en #a99aa1 escrito a fuego. 2.68 de contraste sobre blanco y ademas no cambiaba nunca con la paleta. Ahora sale del tema.",
-    "LAS VINNETAS Y LOS PRECIOS QUE ME ENSENASTE YA ESTABAN BIEN con la paleta nueva: medido, el precio del paquete da 14.87 y las vinnetas 17. Tus capturas eran del estado anterior, antes de la 1.66.",
-    "LOS ICONOS AHORA SALEN DE LA FICHA. Los contaba como copy tuya y no lo son: son la ilustracion de cada punto, y al copiar un proyecto viajan enteros. En GLADIADOR habia una FLOR en las vinnetas de un producto de vigor masculino y un BISTURI entre los rivales, que era la cirugia contra la que competia el BBL. Trece emoji, todos del producto anterior. Probado con tu ficha: la flor pasa a musculo, el fuego a luna para lo de a mitad de la noche, y los rivales dulce te y jean pasan a inyeccion gel y ropa interior."
+    "YA NO HAY QUE PULSAR NADA. La app lleva una huella de la ficha -sacada del nombre, el publico, los beneficios y el antes/despues- y la compara con la de lo ultimo que derivo. Al abrir un proyecto y cuatro segundos despues de que dejes de escribir en la ficha, si no coinciden rehace la landing entera sola.",
+    "POR QUE ASI Y NO CON UN BOTON: el boton existia y habia que acordarse. Acordarse no es una funcion. GLADIADOR estuvo semanas con el casting del BBL, una flor en las vinnetas de un producto de hombres y un bisturi entre los rivales, porque nadie pulso nada — y no habia forma de enterarse mirando la pantalla, solo mirando las imagenes ya pagadas.",
+    "LA LANDING ENTERA, EN UNA SOLA ORDEN. Las dos mitades existian sueltas: redactar() escribe toda la copy desde la ficha y derivar() la direccion de imagen. Ahora van juntas y en el orden que importa: PRIMERO la direccion de imagen, porque de ahi salen las zonas, y DESPUES la copy, que escribe los rotulos de esas zonas. Al reves, la copy hablaria de las zonas del producto anterior.",
+    "La huella se sella AL FINAL: si algo revienta a mitad no se marca como al dia, y el proximo arranque lo vuelve a intentar. Con la ficha a medias no deriva nada y te dice que falta, en vez de generar generico y borrarte lo que hubiera."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.68.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.68.0/LANDING-AI-1.68.0.zip",
-  "bytes": 157267624
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.69.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.69.0/LANDING-AI-1.69.0.zip",
+  "bytes": 157269779
 }
