@@ -1,14 +1,14 @@
 {
-  "version": "1.62.0",
+  "version": "1.63.0",
   "fecha": "2026-09-10",
-  "titulo": "La ficha manda: de ella salen el casting, las zonas, la paleta y la tipografia",
+  "titulo": "Tu orden del antes y el despues llega literal a Seedream y Seedance",
   "notas": [
-    "DOS CAMPOS NUEVOS EN LA FICHA: Que se ve en el ANTES y Que se ve en el DESPUES. Vacios, la app sigue deduciendolo de los beneficios como hasta ahora. Escritos, MANDAN ELLOS por encima de todo lo deducido, y tu frase viaja entera al encargo sin que nadie la reescriba. Hasta ahora no habia donde decir eso: solo se podia pelear con el resultado, generando otra vez y pagando otra vez.",
-    "BOTON APLICAR LA FICHA AL RESTO, en el paso Producto. Lee lo que escribiste y propone el casting, el molde del antes/despues, las zonas con sus prompts de video, la apariencia de las seis resenas, la paleta y la tipografia. Te lo ensena al lado de lo que hay ahora y eliges parte por parte lo que te quedas. No hay aplicar todo a ciegas: sobreescribir sin ensenar es justo lo que dejo un casting de otro producto vivo durante meses.",
-    "NO TOCA TU COPY. Ni un titular, ni una promesa, ni el texto de una resena, ni un precio. Lo que devuelve es direccion de foto: a quien hay que fotografiar y que tiene que verse.",
-    "Probado con la ficha del GLADIADOR, que estaba bien puesta. Propone: casting de mujer a HOMBRE de 30 a 55 con cuerpo real de trabajador; molde de delgada a NINGUNO porque los beneficios son vigor y energia, no cambio de forma; el antes y el despues frente al espejo del bano -hombros caidos contra erguido y mirada firme-, sin nada explicito y respetando tu campo evitar; seis zonas nuevas con sus prompts de video en ingles hablando de postura en vez de busto y gluteos; seis hombres distintos para las resenas; paleta de rojos profundos sobre negro y Cinzel para los titulares."
+    "ANTES SE PERDIA POR EL CAMINO. Lo que escribes en la ficha iba dentro del ENCARGO, y el encargo no llega al modelo: llega a Claude, que con el escribe el prompt en ingles que si llega a Seedream. Ahi tu frase se resumia y se traducia. Eso esta bien para un encargo, pero no para una orden. Ahora ademas se pega TAL CUAL al final del prompt ya escrito, marcada como lo que manda si algo se contradice. Seedream y Seedance reciben tus palabras sin una coma cambiada.",
+    "Va en los dos lados y en las tres piezas: la foto del antes, la del despues, el collage del chat y el video del timeline. En los huecos que no son antes/despues no anade nada.",
+    "QUITADAS LAS PROHIBICIONES DE ROPA QUE TE VESTIAN AL MODELO. En el mismo prompt iba Wearing: plain boxer briefs and nothing else on the torso y tres lineas mas abajo never underwear-only. Dos ordenes contrarias, y el modelo las resuelve poniendo una camiseta que nadie pidio. Era un fallo mio de la version anterior, y es el mismo que ya estaba documentado en el codigo: dos vestuarios incompatibles para la misma foto y el modelo elige. El vestuario se dice UNA vez y en positivo, y lo dice el dial.",
+    "Y otro sitio con el sujeto escrito a mano: el collage del chat decia Same woman in both halves aunque la ficha fuera de hombres."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.62.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.62.0/LANDING-AI-1.62.0.zip",
-  "bytes": 157262884
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.63.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.63.0/LANDING-AI-1.63.0.zip",
+  "bytes": 157263190
 }
