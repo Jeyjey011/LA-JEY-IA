@@ -1,13 +1,15 @@
 {
-  "version": "1.71.0",
+  "version": "1.72.0",
   "fecha": "2026-09-13",
-  "titulo": "Quitadas las reglas de desnudos que quedaban en la app",
+  "titulo": "La ficha del producto manda, llega entera a APIMART y nada la edita",
   "notas": [
-    "Quitadas las cinco que habia. Tres eran limites de contenido y salen enteras: el NEVER topless NEVER nude NEVER see-through de la lenceria del catalogo de modelos, y los dos Nada de desnudos del muro del despues.",
-    "Las otras dos no eran limites de contenido sino de FIDELIDAD: obligan a respetar la ropa de la foto de referencia que tu das, que es justo lo que sostiene tu razonamiento -si la referencia esta bien, el resultado sale como la referencia-. A esas les quite solo la frase de desnudos y dejan de juzgar el contenido: ahora dicen unicamente que la ropa sale igual que en la referencia y que no se cambie.",
-    "Lo que decide la ropa ahora es lo que TU describes: el dial de ropa y tus referencias. Buscado en todo src/ y no queda ninguna regla de desnudos. Tu descripcion de la lenceria -dos piezas, copa opaca- se queda, porque es la descripcion de la prenda, no una prohibicion."
+    "TU REGLA: los modelos de APIMART hacen caso al texto de la ficha y a nada mas, y nada la edita ni la corrige.",
+    "LA FICHA NO LLEGABA ENTERA. El encargo va primero a Claude, que escribe el prompt, y por el camino se perdia: beneficios y direccion de arte NI SE MANDABAN, y quien aparece salia del casting deducido en vez de tu ficha. Ahora cada campo de la ficha se pega al final del prompt tal cual lo escribiste, sin tocar una coma, marcado como lo unico que manda: si cualquier otra linea del prompt la contradice, gana la ficha. Va en todas las generaciones, fotos y video.",
+    "El que se ve en el antes y el que se ve en el despues solo van en las piezas que son antes o despues. Mandar tu frase del antes a la foto de un ingrediente no seria hacerle caso a la ficha, seria aplicarla donde no habla.",
+    "NADA ESCRIBE YA EN TU FICHA. El automatico llegaba a rellenar tu antes y tu despues con la version deducida -primero pisando lo que habias puesto, despues solo si estaba vacio-. Las dos cosas eran escribir en tu ficha. Fuera.",
+    "Y quite una regla mia del prompt que lee la ficha, Gente real no modelos de pasarela ni de gimnasio, que no salia de tu ficha sino de mi."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.71.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.71.0/LANDING-AI-1.71.0.zip",
-  "bytes": 157270134
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.72.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.72.0/LANDING-AI-1.72.0.zip",
+  "bytes": 157270229
 }
