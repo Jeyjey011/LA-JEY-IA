@@ -1,14 +1,13 @@
 {
-  "version": "1.70.0",
-  "fecha": "2026-09-10",
-  "titulo": "El redactor sale del automatico, y el rosa del BBL deja de estar escrito a fuego",
+  "version": "1.71.0",
+  "fecha": "2026-09-13",
+  "titulo": "Quitadas las reglas de desnudos que quedaban en la app",
   "notas": [
-    "TE REESCRIBI LA COPY Y NO DEBI. Encadene el redactor detras del automatico para que la ficha hiciera la landing entera. Medido contra tu copia anterior: no borro nada -0 campos vacios- pero REESCRIBIO 41 textos tuyos, y ablandandolos: donde ponia Se acaba la eyaculacion precoz salio Se acaba lo de terminar rapido. Fuera del automatico. El redactor sigue con su boton, que es donde tu decides usarlo.",
-    "TU ANTES Y DESPUES SE QUEDAN. Esos dos campos de la ficha los puse para que TU dijeras que foto quieres, con la promesa de que si estaban escritos mandaban ellos, y luego el automatico los pisaba con la version deducida. Ahora solo se rellenan si estan VACIOS.",
-    "LO DE A MEDIAS TENIAS RAZON. Habia una familia entera de rosas del BBL escritos a fuego para el texto sobre las secciones oscuras: 8 usos de #ffc7db en acentos y cifras, 4 de #c9b6c1 en el secundario, 3 de #e8dbe2 en el cuerpo. Veinticuatro literales que no seguian la paleta, asi que en tu landing de hombres con el ink marron salia texto rosa y no habia forma de cambiarlo. Ahora son tres variables del tema -inkText, inkMuted, inkAccent- que la ficha propone y el medidor de contraste vigila.",
-    "Sin tocar el BBL: los valores por defecto son los de siempre letra por letra, comprobado que su --ink-accent sigue saliendo #ffc7db y que sus 51 encargos no cambian."
+    "Quitadas las cinco que habia. Tres eran limites de contenido y salen enteras: el NEVER topless NEVER nude NEVER see-through de la lenceria del catalogo de modelos, y los dos Nada de desnudos del muro del despues.",
+    "Las otras dos no eran limites de contenido sino de FIDELIDAD: obligan a respetar la ropa de la foto de referencia que tu das, que es justo lo que sostiene tu razonamiento -si la referencia esta bien, el resultado sale como la referencia-. A esas les quite solo la frase de desnudos y dejan de juzgar el contenido: ahora dicen unicamente que la ropa sale igual que en la referencia y que no se cambie.",
+    "Lo que decide la ropa ahora es lo que TU describes: el dial de ropa y tus referencias. Buscado en todo src/ y no queda ninguna regla de desnudos. Tu descripcion de la lenceria -dos piezas, copa opaca- se queda, porque es la descripcion de la prenda, no una prohibicion."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.70.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.70.0/LANDING-AI-1.70.0.zip",
-  "bytes": 157270250
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.71.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.71.0/LANDING-AI-1.71.0.zip",
+  "bytes": 157270134
 }
