@@ -1,15 +1,14 @@
 {
-  "version": "1.72.0",
-  "fecha": "2026-09-13",
-  "titulo": "La ficha del producto manda, llega entera a APIMART y nada la edita",
+  "version": "1.73.0",
+  "fecha": "2026-09-16",
+  "titulo": "El .gempages ya sirve en cualquier tienda: sin tu variantId ni tu dominio dentro",
   "notas": [
-    "TU REGLA: los modelos de APIMART hacen caso al texto de la ficha y a nada mas, y nada la edita ni la corrige.",
-    "LA FICHA NO LLEGABA ENTERA. El encargo va primero a Claude, que escribe el prompt, y por el camino se perdia: beneficios y direccion de arte NI SE MANDABAN, y quien aparece salia del casting deducido en vez de tu ficha. Ahora cada campo de la ficha se pega al final del prompt tal cual lo escribiste, sin tocar una coma, marcado como lo unico que manda: si cualquier otra linea del prompt la contradice, gana la ficha. Va en todas las generaciones, fotos y video.",
-    "El que se ve en el antes y el que se ve en el despues solo van en las piezas que son antes o despues. Mandar tu frase del antes a la foto de un ingrediente no seria hacerle caso a la ficha, seria aplicarla donde no habla.",
-    "NADA ESCRIBE YA EN TU FICHA. El automatico llegaba a rellenar tu antes y tu despues con la version deducida -primero pisando lo que habias puesto, despues solo si estaba vacio-. Las dos cosas eran escribir en tu ficha. Fuera.",
-    "Y quite una regla mia del prompt que lee la ficha, Gente real no modelos de pasarela ni de gimnasio, que no salia de tu ficha sino de mi."
+    "TENIAS RAZON Y ERA PEOR: el .gempages del BBL llevaba tu variantId 2 veces y el dominio mrsia2-qf.myshopify.com 21 veces, una por seccion. Importado en otra tienda no solo no funcionaba: mandaba a los clientes de esa tienda al carrito de LA TUYA, con un producto que alli no existe.",
+    "AHORA LO QUE VA A GEMPAGES ES PORTABLE. Ni dominio ni variantId dentro, por las tres vias -el archivo .gempages, las secciones y pegar en un bloque-. Los enlaces salen relativos (/cart/...) y resuelven contra la tienda donde este la pagina, que es justo la que tiene que vender. Y el producto lo lee el runtime de la propia pagina al llegar, de ShopifyAnalytics.meta, que Shopify deja en toda pagina de producto: la variante elegida o la primera.",
+    "PROBADO simulando otra tienda: en modo EasySell el formulario oculto paso de vacio a la variante de esa pagina; en modo carrito el boton paso de /cart a /cart/777888999:1?storefront=true, relativo y sin ningun dominio. Cero rastros de tu tienda en el HTML montado.",
+    "La salida a TU Shopify (.liquid) no cambia y sigue llevando tus datos: comprobado que conserva el variantId y el dominio. Es para tu tienda; el .gempages es para cualquiera."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.72.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.72.0/LANDING-AI-1.72.0.zip",
-  "bytes": 157270229
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.73.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.73.0/LANDING-AI-1.73.0.zip",
+  "bytes": 157270871
 }
