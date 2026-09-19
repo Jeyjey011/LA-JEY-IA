@@ -1,14 +1,15 @@
 {
-  "version": "1.73.0",
-  "fecha": "2026-09-16",
-  "titulo": "El .gempages ya sirve en cualquier tienda: sin tu variantId ni tu dominio dentro",
+  "version": "1.74.0",
+  "fecha": "2026-09-19",
+  "titulo": "Modelos por molde, todo en paralelo y sin reglas de ropa",
   "notas": [
-    "TENIAS RAZON Y ERA PEOR: el .gempages del BBL llevaba tu variantId 2 veces y el dominio mrsia2-qf.myshopify.com 21 veces, una por seccion. Importado en otra tienda no solo no funcionaba: mandaba a los clientes de esa tienda al carrito de LA TUYA, con un producto que alli no existe.",
-    "AHORA LO QUE VA A GEMPAGES ES PORTABLE. Ni dominio ni variantId dentro, por las tres vias -el archivo .gempages, las secciones y pegar en un bloque-. Los enlaces salen relativos (/cart/...) y resuelven contra la tienda donde este la pagina, que es justo la que tiene que vender. Y el producto lo lee el runtime de la propia pagina al llegar, de ShopifyAnalytics.meta, que Shopify deja en toda pagina de producto: la variante elegida o la primera.",
-    "PROBADO simulando otra tienda: en modo EasySell el formulario oculto paso de vacio a la variante de esa pagina; en modo carrito el boton paso de /cart a /cart/777888999:1?storefront=true, relativo y sin ningun dominio. Cero rastros de tu tienda en el HTML montado.",
-    "La salida a TU Shopify (.liquid) no cambia y sigue llevando tus datos: comprobado que conserva el variantId y el dominio. Es para tu tienda; el .gempages es para cualquiera."
+    "El paso Modelos construye el cuerpo que dice la hoja: «Antes · con sobrepeso» ya sale con sobrepeso (antes usaba el texto del BBL y salía la delgada), y el después sale del molde de la ficha: delgada si adelgaza, firme si tonifica, reloj de arena si da forma. Fuegos propios por molde (Sobrepeso, Adelgazar, Sin tono, Tonificar).",
+    "Botón nuevo «Crear el antes y el después»: la app elige la hoja por el molde de la ficha, el mismo rostro y la misma pose, genera los dos lados A LA VEZ y los guarda en el catálogo. El fuego sigue disponible sobre cada foto.",
+    "«Generar todas las vacías» genera 3 imágenes a la vez en vez de una detrás de otra.",
+    "Rehacer la landing desde la ficha se dispara al salir del campo, no a los 4 s de cada pausa al teclear: ya no encadena llamadas largas con la ficha a medias.",
+    "Quitadas las últimas frases de ropa que no salían de la ficha: copas opacas, «never turns transparent», «same amount of skin». Lo que se lleva puesto lo dice el dial y la referencia, nada más."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.73.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.73.0/LANDING-AI-1.73.0.zip",
-  "bytes": 157270871
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.74.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.74.0/LANDING-AI-1.74.0.zip",
+  "bytes": 157275902
 }
