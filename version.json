@@ -1,15 +1,13 @@
 {
-  "version": "1.74.0",
+  "version": "1.75.0",
   "fecha": "2026-09-19",
-  "titulo": "Modelos por molde, todo en paralelo y sin reglas de ropa",
+  "titulo": "La paleta sale de la foto del producto",
   "notas": [
-    "El paso Modelos construye el cuerpo que dice la hoja: «Antes · con sobrepeso» ya sale con sobrepeso (antes usaba el texto del BBL y salía la delgada), y el después sale del molde de la ficha: delgada si adelgaza, firme si tonifica, reloj de arena si da forma. Fuegos propios por molde (Sobrepeso, Adelgazar, Sin tono, Tonificar).",
-    "Botón nuevo «Crear el antes y el después»: la app elige la hoja por el molde de la ficha, el mismo rostro y la misma pose, genera los dos lados A LA VEZ y los guarda en el catálogo. El fuego sigue disponible sobre cada foto.",
-    "«Generar todas las vacías» genera 3 imágenes a la vez en vez de una detrás de otra.",
-    "Rehacer la landing desde la ficha se dispara al salir del campo, no a los 4 s de cada pausa al teclear: ya no encadena llamadas largas con la ficha a medias.",
-    "Quitadas las últimas frases de ropa que no salían de la ficha: copas opacas, «never turns transparent», «same amount of skin». Lo que se lleva puesto lo dice el dial y la referencia, nada más."
+    "La ficha tiene ahora su «Foto real del producto» arriba de los campos (es el mismo hueco producto.foto, a la vista). Claude la recibe adjunta al derivar y la paleta sale del ENVASE: un frasco rojo da una landing roja, aunque la dirección de arte escrita hable de otros colores. Probado con el Happy Cleaner: de fucsia heredado a rojo sandía.",
+    "La huella de la ficha cubre ahora toda la ficha (envase, dirección de arte, colores de la dosis, la foto): cambiar cualquiera de esas cosas rehace la landing. Al abrir cada proyecto por primera vez con esta versión se rehará una vez, porque la huella cambió.",
+    "Cambiar cualquier campo de la ficha dispara la derivación, no solo cinco."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.74.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.74.0/LANDING-AI-1.74.0.zip",
-  "bytes": 157275902
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.75.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.75.0/LANDING-AI-1.75.0.zip",
+  "bytes": 157278039
 }
