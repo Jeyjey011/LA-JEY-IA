@@ -1,12 +1,13 @@
 {
-  "version": "1.76.0",
+  "version": "1.77.0",
   "fecha": "2026-09-19",
-  "titulo": "La app ya no pisa la ficha mientras piensa",
+  "titulo": "Los activos salen de la ficha y la copy cruzada se delata",
   "notas": [
-    "Rehacer la landing desde la ficha leía el config, llamaba a Claude un minuto y guardaba esa copia vieja encima: todo lo que se escribía en la ficha durante ese minuto se perdía y volvía la ficha del producto anterior. Ahora aplica lo derivado sobre lo que hay en disco en ese momento, y si la ficha cambió por el camino la vuelve a rehacer con lo nuevo.",
-    "El redactor tenía el mismo fallo (clonaba el config de antes de minutos de llamadas): corregido igual."
+    "La ficha tiene un campo nuevo «Activos / ingredientes» (uno por línea: Nombre — qué hace). La sección «lo que lleva dentro» se arma con ellos letra por letra, sin pasar por Claude: nombres, frase corta y el número del titular. Un activo que ya estaba conserva su foto y sus textos largos; los que no están en la ficha se van.",
+    "Copy cruzada: la app compara la copy con los nombres y activos de tus OTROS proyectos y, si la landing nombra cosas que la ficha no dice (Aguaje, fenogreco, maca en un producto que no las lleva), lo dice con cuentas en la auditoría (rojo) y al rehacer desde la ficha. La copy no se reescribe sola: se te dice qué sobra y se te manda al botón Redactar.",
+    "El redactor recibe los activos con la orden de usar esos nombres exactos y no inventar otros; sin activos en la ficha, no nombra ninguno."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.76.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.76.0/LANDING-AI-1.76.0.zip",
-  "bytes": 157278106
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.77.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.77.0/LANDING-AI-1.77.0.zip",
+  "bytes": 157280104
 }
