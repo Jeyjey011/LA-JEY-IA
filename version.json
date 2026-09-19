@@ -1,13 +1,14 @@
 {
-  "version": "1.77.0",
+  "version": "1.78.0",
   "fecha": "2026-09-19",
-  "titulo": "Los activos salen de la ficha y la copy cruzada se delata",
+  "titulo": "La tabla nutricional en la ficha: los activos se leen de ahí",
   "notas": [
-    "La ficha tiene un campo nuevo «Activos / ingredientes» (uno por línea: Nombre — qué hace). La sección «lo que lleva dentro» se arma con ellos letra por letra, sin pasar por Claude: nombres, frase corta y el número del titular. Un activo que ya estaba conserva su foto y sus textos largos; los que no están en la ficha se van.",
-    "Copy cruzada: la app compara la copy con los nombres y activos de tus OTROS proyectos y, si la landing nombra cosas que la ficha no dice (Aguaje, fenogreco, maca en un producto que no las lleva), lo dice con cuentas en la auditoría (rojo) y al rehacer desde la ficha. La copy no se reescribe sola: se te dice qué sobra y se te manda al botón Redactar.",
-    "El redactor recibe los activos con la orden de usar esos nombres exactos y no inventar otros; sin activos en la ficha, no nombra ninguno."
+    "La ficha tiene una segunda foto: «Tabla nutricional / etiqueta con ingredientes». Al rehacer desde la ficha, Claude recibe la foto del frasco y la de la tabla; lee los activos impresos en la tabla, con sus nombres tal cual, y a cada uno le asigna el beneficio que le toca REPARTIENDO los beneficios que tú escribiste, con tus palabras: no inventa beneficios ni cambia los tuyos. La sección «lo que lleva dentro» se arma con eso.",
+    "Si escribes los activos a mano en la ficha, mandan los escritos y la tabla no se lee.",
+    "Los proyectos nuevos nacen sin la foto ni la tabla del anterior (antes el frasco del producto anterior viajaba al nuevo).",
+    "Probado con una tabla real de 5 activos: nombres exactos, beneficios repartidos, ficha intacta, sección con 5 activos."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.77.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.77.0/LANDING-AI-1.77.0.zip",
-  "bytes": 157280104
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.78.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.78.0/LANDING-AI-1.78.0.zip",
+  "bytes": 157282007
 }
