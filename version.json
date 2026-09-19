@@ -1,13 +1,12 @@
 {
-  "version": "1.75.0",
+  "version": "1.76.0",
   "fecha": "2026-09-19",
-  "titulo": "La paleta sale de la foto del producto",
+  "titulo": "La app ya no pisa la ficha mientras piensa",
   "notas": [
-    "La ficha tiene ahora su «Foto real del producto» arriba de los campos (es el mismo hueco producto.foto, a la vista). Claude la recibe adjunta al derivar y la paleta sale del ENVASE: un frasco rojo da una landing roja, aunque la dirección de arte escrita hable de otros colores. Probado con el Happy Cleaner: de fucsia heredado a rojo sandía.",
-    "La huella de la ficha cubre ahora toda la ficha (envase, dirección de arte, colores de la dosis, la foto): cambiar cualquiera de esas cosas rehace la landing. Al abrir cada proyecto por primera vez con esta versión se rehará una vez, porque la huella cambió.",
-    "Cambiar cualquier campo de la ficha dispara la derivación, no solo cinco."
+    "Rehacer la landing desde la ficha leía el config, llamaba a Claude un minuto y guardaba esa copia vieja encima: todo lo que se escribía en la ficha durante ese minuto se perdía y volvía la ficha del producto anterior. Ahora aplica lo derivado sobre lo que hay en disco en ese momento, y si la ficha cambió por el camino la vuelve a rehacer con lo nuevo.",
+    "El redactor tenía el mismo fallo (clonaba el config de antes de minutos de llamadas): corregido igual."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.75.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.75.0/LANDING-AI-1.75.0.zip",
-  "bytes": 157278039
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.76.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.76.0/LANDING-AI-1.76.0.zip",
+  "bytes": 157278106
 }
