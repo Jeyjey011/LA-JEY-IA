@@ -1,12 +1,12 @@
 {
-  "version": "1.82.0",
+  "version": "1.83.0",
   "fecha": "2026-09-20",
-  "titulo": "🏭 Hacer la landing entera: foto + ficha y ya",
+  "titulo": "El molde que dedujo Claude manda sobre el recuento de palabras",
   "notas": [
-    "Botón nuevo en Producto: «Hacer la landing entera». Con la foto del frasco y la ficha, la app hace sola lo que antes era hueco por hueco: rehace casting, zonas, paleta y activos desde la ficha; redacta toda la copy (con tu copy del dueño tal cual); crea la modelo del antes y el después si el producto es de cuerpo; genera todas las imágenes vacías tres a la vez; hace todos los vídeos vacíos (fotograma + animación, sin pasar por la revisión); y audita. Vuelves cuando esté hecho: cada paso queda en el registro y los fallos se listan bajo la ficha con qué hueco repetir.",
-    "Es exactamente el proceso con el que se hizo el Magnesium Kids desde el chat, ahora en un botón para cualquiera que use la app."
+    "moldeDe decidía el molde contando palabras de la ficha: en TRY MAGNUS (barriga, papada, rollitos… y también cabello, piel, rostro, colágeno) ganaba «ninguno» por las palabras de piel y cabello, y la landing de adelgazar salía sin cuerpo aunque Claude ya había deducido «adelgazar» y lo había guardado. Ahora, cuando el molde lo dedujo Claude de esta misma ficha (huella guardada al derivar), manda ese; si la ficha cambia, vuelve a mandar la ficha y la app la deriva de nuevo.",
+    "La huella de la ficha vive en persona.mjs y desdeficha la reexporta (antes era un ciclo)."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.82.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.82.0/LANDING-AI-1.82.0.zip",
-  "bytes": 157288815
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.83.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.83.0/LANDING-AI-1.83.0.zip",
+  "bytes": 157288871
 }
