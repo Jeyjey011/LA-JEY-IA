@@ -1,14 +1,15 @@
 {
-  "version": "1.78.0",
-  "fecha": "2026-09-19",
-  "titulo": "La tabla nutricional en la ficha: los activos se leen de ahí",
+  "version": "1.79.0",
+  "fecha": "2026-09-20",
+  "titulo": "Productos sin cuerpo, copy del dueño y vídeos animados",
   "notas": [
-    "La ficha tiene una segunda foto: «Tabla nutricional / etiqueta con ingredientes». Al rehacer desde la ficha, Claude recibe la foto del frasco y la de la tabla; lee los activos impresos en la tabla, con sus nombres tal cual, y a cada uno le asigna el beneficio que le toca REPARTIENDO los beneficios que tú escribiste, con tus palabras: no inventa beneficios ni cambia los tuyos. La sección «lo que lleva dentro» se arma con eso.",
-    "Si escribes los activos a mano en la ficha, mandan los escritos y la tabla no se lee.",
-    "Los proyectos nuevos nacen sin la foto ni la tabla del anterior (antes el frasco del producto anterior viajaba al nuevo).",
-    "Probado con una tabla real de 5 activos: nombres exactos, beneficios repartidos, ficha intacta, sección con 5 activos."
+    "Molde «ninguno» (niños, uñas, sueño, hogar): cinco encargos seguían pidiendo «una mujer en vestido de baño con el cuerpo del después» —lámina sin riesgo, muro de premios, collage del chat, día 1/día 30 y el fotograma del vídeo—, el servidor pegaba el bloqueo de pose de cuerpo entero y el vídeo de transformación llevaba el candado del BBL. Ahora todo eso usa el antes y el después literal de la ficha. Probado con una landing entera de gomitas para niños.",
+    "Ficha: campo «Copy del dueño». Titulares, bullets, CTA y testimonios que ya tienes escritos se colocan tal cual, sin ablandar; el redactor escribe el resto alrededor.",
+    "Ajustes: «Vídeos de reseña» reales o animados (3D en el estilo elegido, misma escena y guion). Con la foto del frasco de referencia Seedream tiraba a foto real: la orden «render 3D, no fotografía» va ahora al principio.",
+    "En imágenes donde el producto no sale (sellos, iconos, avatares) la ficha ya no manda las líneas del envase: el sello de garantía salía como un frasco sobre una mesa.",
+    "seedream 5.0 no acepta 4:5: se pide en píxeles exactos y ya no cae al modelo de reserva. Copy cruzada: las palabras de cada activo de la ficha cuentan como propias."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.78.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.78.0/LANDING-AI-1.78.0.zip",
-  "bytes": 157282007
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.79.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.79.0/LANDING-AI-1.79.0.zip",
+  "bytes": 157284484
 }
