@@ -1,12 +1,13 @@
 {
-  "version": "1.83.0",
+  "version": "1.84.0",
   "fecha": "2026-09-20",
-  "titulo": "El molde que dedujo Claude manda sobre el recuento de palabras",
+  "titulo": "Reseñas con clientas del después, y la modelo en el mismo sitio",
   "notas": [
-    "moldeDe decidía el molde contando palabras de la ficha: en TRY MAGNUS (barriga, papada, rollitos… y también cabello, piel, rostro, colágeno) ganaba «ninguno» por las palabras de piel y cabello, y la landing de adelgazar salía sin cuerpo aunque Claude ya había deducido «adelgazar» y lo había guardado. Ahora, cuando el molde lo dedujo Claude de esta misma ficha (huella guardada al derivar), manda ese; si la ficha cambia, vuelve a mandar la ficha y la app la deriva de nuevo.",
-    "La huella de la ficha vive en persona.mjs y desdeficha la reexporta (antes era un ciclo)."
+    "Regla del dueño en el código: las clientas de las reseñas (foto y vídeo) son el DESPUÉS del producto: hermosas, descansadas, piel luminosa, sin ojeras ni cara cansada, con buen cuerpo. Va en la derivación de las apariencias, en el brief de la foto de reseña y en el fotograma del vídeo.",
+    "La modelo automática del antes y el después pide el mismo escenario en las dos fotos (la primera salió en una playa y la segunda en un dormitorio, y la lámina Día 1/Día 30 parecía de dos mujeres distintas).",
+    "Un proyecto nuevo ya no hereda las portadas de vídeo del anterior."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.83.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.83.0/LANDING-AI-1.83.0.zip",
-  "bytes": 157288871
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.84.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.84.0/LANDING-AI-1.84.0.zip",
+  "bytes": 157289169
 }
