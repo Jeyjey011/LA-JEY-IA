@@ -1,12 +1,13 @@
 {
-  "version": "1.80.0",
+  "version": "1.81.0",
   "fecha": "2026-09-20",
-  "titulo": "El vídeo de la transformación también sale de la ficha",
+  "titulo": "Reseñas en vídeo reales con Google Veo 3.1",
   "notas": [
-    "El escenario y la ropa del vídeo de la transformación (timeline) van en inglés y el redactor no los toca: un producto de niños heredaba el ciclorama fucsia y el crop top del BBL, y el fotograma salía con una niña en crop top rosa. Ahora los deriva Claude desde la ficha (contexto y público) al rehacer la landing.",
-    "Con molde «ninguno», el fotograma del después tiene orden reforzada de no cambiar el cuerpo: el modelo de reserva le había puesto barriga al niño en el «después»."
+    "Modelo de vídeo nuevo en Ajustes: Google Veo 3.1 (el de Flow), rápido o calidad, para las reseñas en vídeo. Funciona por APIMART con el fotograma de referencia; solo hace clips de 4, 6 u 8 s, así que si el proyecto pide 12 se manda 8 (y el editor lo dice bien). Probado: cuatro reseñas de personas reales, sin subtítulos horneados.",
+    "El fotograma de la reseña arranca con el método 6C de AvatarHype (foto de iPhone, piel con poros y pecas, grano, vibe UGC real, sin texto ni marca de agua), puesto al principio del prompt, que es donde pesa.",
+    "El guion ya no va entre comillas en el prompt del fotograma: seedream lo horneaba como subtítulo de cuatro líneas inventadas. Lo que dice lo lleva el prompt del vídeo."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.80.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.80.0/LANDING-AI-1.80.0.zip",
-  "bytes": 157284870
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.81.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.81.0/LANDING-AI-1.81.0.zip",
+  "bytes": 157285369
 }
