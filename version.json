@@ -1,13 +1,12 @@
 {
-  "version": "1.81.0",
+  "version": "1.82.0",
   "fecha": "2026-09-20",
-  "titulo": "Reseñas en vídeo reales con Google Veo 3.1",
+  "titulo": "🏭 Hacer la landing entera: foto + ficha y ya",
   "notas": [
-    "Modelo de vídeo nuevo en Ajustes: Google Veo 3.1 (el de Flow), rápido o calidad, para las reseñas en vídeo. Funciona por APIMART con el fotograma de referencia; solo hace clips de 4, 6 u 8 s, así que si el proyecto pide 12 se manda 8 (y el editor lo dice bien). Probado: cuatro reseñas de personas reales, sin subtítulos horneados.",
-    "El fotograma de la reseña arranca con el método 6C de AvatarHype (foto de iPhone, piel con poros y pecas, grano, vibe UGC real, sin texto ni marca de agua), puesto al principio del prompt, que es donde pesa.",
-    "El guion ya no va entre comillas en el prompt del fotograma: seedream lo horneaba como subtítulo de cuatro líneas inventadas. Lo que dice lo lleva el prompt del vídeo."
+    "Botón nuevo en Producto: «Hacer la landing entera». Con la foto del frasco y la ficha, la app hace sola lo que antes era hueco por hueco: rehace casting, zonas, paleta y activos desde la ficha; redacta toda la copy (con tu copy del dueño tal cual); crea la modelo del antes y el después si el producto es de cuerpo; genera todas las imágenes vacías tres a la vez; hace todos los vídeos vacíos (fotograma + animación, sin pasar por la revisión); y audita. Vuelves cuando esté hecho: cada paso queda en el registro y los fallos se listan bajo la ficha con qué hueco repetir.",
+    "Es exactamente el proceso con el que se hizo el Magnesium Kids desde el chat, ahora en un botón para cualquiera que use la app."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.81.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.81.0/LANDING-AI-1.81.0.zip",
-  "bytes": 157285369
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.82.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.82.0/LANDING-AI-1.82.0.zip",
+  "bytes": 157288815
 }
