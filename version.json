@@ -1,13 +1,11 @@
 {
-  "version": "1.84.0",
+  "version": "1.85.0",
   "fecha": "2026-09-20",
-  "titulo": "Reseñas con clientas del después, y la modelo en el mismo sitio",
+  "titulo": "Un proyecto nuevo ya no publica encima de la landing del anterior",
   "notas": [
-    "Regla del dueño en el código: las clientas de las reseñas (foto y vídeo) son el DESPUÉS del producto: hermosas, descansadas, piel luminosa, sin ojeras ni cara cansada, con buen cuerpo. Va en la derivación de las apariencias, en el brief de la foto de reseña y en el fotograma del vídeo.",
-    "La modelo automática del antes y el después pide el mismo escenario en las dos fotos (la primera salió en una playa y la segunda en un dormitorio, y la lámina Día 1/Día 30 parecía de dos mujeres distintas).",
-    "Un proyecto nuevo ya no hereda las portadas de vídeo del anterior."
+    "Al crear un proyecto desde el actual se heredaba la plantilla de Shopify (templateSuffix) del producto anterior, y publicar el nuevo escribía ENCIMA de la landing del anterior en la tienda: TRY MAGNUS reemplazó la del Magnesium Kids. Ahora el proyecto nuevo nace sin plantilla y publicar crea la suya."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.84.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.84.0/LANDING-AI-1.84.0.zip",
-  "bytes": 157289169
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.85.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.85.0/LANDING-AI-1.85.0.zip",
+  "bytes": 157289186
 }
