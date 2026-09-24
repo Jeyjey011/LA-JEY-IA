@@ -1,17 +1,16 @@
 {
-  "version": "1.88.0",
+  "version": "1.89.0",
   "fecha": "2026-09-24",
-  "titulo": "Precios fáciles, Shopify en 4 pasos, ficha con IA, bienvenida e instalador",
+  "titulo": "La portada lleva su propio gancho",
   "notas": [
-    "Precios: solo dices cuánto vale 1, 2 y 3; botones 2×1 y 3×2; garantía en un solo campo (90 días).",
-    "Shopify en cuatro pasos: enlace del producto, token, Comprobar y Publicar.",
-    "Producto: «Llénala con la IA» propone la ficha entera desde la foto; tú marcas y corriges.",
-    "Bienvenida paso a paso con saldos en vivo y botón «?»; Ajustes en tarjetas con Probar y Diagnóstico.",
-    "Biblioteca compartida que se sincroniza sola, y un zip instalador para mandar la app a otra persona."
+    "La primera imagen ya no repite el titular: lleva un gancho emocional con tiempo y resultado.",
+    "Si el proyecto no lo tiene, Claude lo escribe solo desde la ficha; se edita en los textos del hero.",
+    "La nota de paquetes dice frascos o tarros, no «unidades».",
+    "El cuadro de actualización se desplaza si las notas son largas."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.88.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.88.0/LANDING-AI-1.88.0.zip",
-  "bytes": 157346560,
-  "instalador": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.88.0/LANDING-AI-instalador-1.88.0.zip",
-  "instaladorBytes": 163178102
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.89.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.89.0/LANDING-AI-1.89.0.zip",
+  "bytes": 157348187,
+  "instalador": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.89.0/LANDING-AI-instalador-1.89.0.zip",
+  "instaladorBytes": 164815493
 }
