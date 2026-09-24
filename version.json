@@ -1,16 +1,13 @@
 {
   "version": "1.88.0",
   "fecha": "2026-09-24",
-  "titulo": "Precios fáciles, Shopify en cuatro pasos, la ficha se llena con la IA, bienvenida con saldos, biblioteca compartida e instalador",
+  "titulo": "Precios fáciles, Shopify en 4 pasos, ficha con IA, bienvenida e instalador",
   "notas": [
-    "PRECIOS: la pestaña se llama así y pide solo cuánto vale 1, 2 y 3; botones 2×1 y 3×2; el tachado, las cintas y el precio del botón se arman solos (se acabó el precio suelto mal grabado). Campo único de garantía (90 días) con «Aplicar a toda la landing»; la auditoría avisa si un texto dice otra cosa.",
-    "SHOPIFY: cuatro pasos: pega el enlace del producto, el token (con los clics exactos y los permisos), Comprobar (tienda, producto y plantilla en verde o rojo con qué hacer) y Publicar (con el enlace de la página viva).",
-    "PRODUCTO: caja «Llénala con la IA»: con la foto (y la tabla) propone los 15 campos de la ficha, con lenguaje crudo, promesa con tiempo y resultado y el antes/después como escenas; tú marcas lo que quieres y solo entonces se escribe. El redactor tiene regla fija de no suavizar.",
-    "BIENVENIDA: al instalar sale una guía paso a paso (qué hace la app, Claude, APIMART, GitHub, Shopify, tu primera landing) con estado en vivo, saldo de APIMART en USD y cómo recargar; botón «?» permanente y chip de saldo en la cabecera que se pone rojo con menos de 5 USD.",
-    "AJUSTES: tarjetas con estado en vivo, botón Probar por clave y tarjeta Diagnóstico con «Copiar diagnóstico».",
-    "BIBLIOTECA COMPARTIDA: las fotos de referencia (incluidas las modelos generadas) se ponen al día solas con el repo al arrancar y cada 6 horas; sin token solo se recibe, con token también se comparte.",
-    "INSTALADOR: en la misma Release hay un segundo zip, LANDING-AI-instalador, para mandar a otra persona: trae la app, la biblioteca completa y una configuración limpia; al abrirlo aparece la bienvenida.",
-    "Y al crear un proyecto se vacían también antes/después, ángulos, evitar y color2 (venían heredados del producto anterior)."
+    "Precios: solo dices cuánto vale 1, 2 y 3; botones 2×1 y 3×2; garantía en un solo campo (90 días).",
+    "Shopify en cuatro pasos: enlace del producto, token, Comprobar y Publicar.",
+    "Producto: «Llénala con la IA» propone la ficha entera desde la foto; tú marcas y corriges.",
+    "Bienvenida paso a paso con saldos en vivo y botón «?»; Ajustes en tarjetas con Probar y Diagnóstico.",
+    "Biblioteca compartida que se sincroniza sola, y un zip instalador para mandar la app a otra persona."
   ],
   "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.88.0",
   "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.88.0/LANDING-AI-1.88.0.zip",
