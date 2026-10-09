@@ -1,16 +1,15 @@
 {
-  "version": "1.89.0",
-  "fecha": "2026-09-24",
-  "titulo": "La portada lleva su propio gancho",
+  "version": "1.90.0",
+  "fecha": "2026-10-09",
+  "titulo": "Catálogo de tu proveeduría y calculadora de rentabilidad",
   "notas": [
-    "La primera imagen ya no repite el titular: lleva un gancho emocional con tiempo y resultado.",
-    "Si el proyecto no lo tiene, Claude lo escribe solo desde la ficha; se edita en los textos del hero.",
-    "La nota de paquetes dice frascos o tarros, no «unidades».",
-    "El cuadro de actualización se desplaza si las notas son largas."
+    "Producto: «Elegir de mi proveeduría» pone nombre, foto y costo de tus productos de Dropi.",
+    "Precios: calculadora con costo, flete, cancelación, devolución y CPA; te dice cuánto ganas por pedido y propone los precios de 1, 2 y 3.",
+    "Las tasas salen de tus pedidos reales sin duplicados; la auditoría avisa si un paquete pierde."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.89.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.89.0/LANDING-AI-1.89.0.zip",
-  "bytes": 157348187,
-  "instalador": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.89.0/LANDING-AI-instalador-1.89.0.zip",
-  "instaladorBytes": 164815493
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.90.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.90.0/LANDING-AI-1.90.0.zip",
+  "bytes": 157365085,
+  "instalador": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.90.0/LANDING-AI-instalador-1.90.0.zip",
+  "instaladorBytes": 164840231
 }
