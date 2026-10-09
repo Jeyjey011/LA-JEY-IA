@@ -1,15 +1,15 @@
 {
-  "version": "1.90.0",
+  "version": "1.91.0",
   "fecha": "2026-10-09",
-  "titulo": "Catálogo de tu proveeduría y calculadora de rentabilidad",
+  "titulo": "Tu tienda completa en Shopify",
   "notas": [
-    "Producto: «Elegir de mi proveeduría» pone nombre, foto y costo de tus productos de Dropi.",
-    "Precios: calculadora con costo, flete, cancelación, devolución y CPA; te dice cuánto ganas por pedido y propone los precios de 1, 2 y 3.",
-    "Las tasas salen de tus pedidos reales sin duplicados; la auditoría avisa si un paquete pierde."
+    "Shopify: «Crear el producto en mi tienda» con variantes de 1, 2 y 3 y sus fotos.",
+    "Shopify: «Armar mi tema» deja la tienda con tus colores, letras, portada, anuncio y pie, sobre Dawn (gratuito).",
+    "Base de datos propia con tu catálogo, proyectos y métricas."
   ],
-  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.90.0",
-  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.90.0/LANDING-AI-1.90.0.zip",
-  "bytes": 157365085,
-  "instalador": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.90.0/LANDING-AI-instalador-1.90.0.zip",
-  "instaladorBytes": 164840231
+  "descarga": "https://github.com/Jeyjey011/LA-JEY-IA/releases/tag/v1.91.0",
+  "paquete": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.91.0/LANDING-AI-1.91.0.zip",
+  "bytes": 158385485,
+  "instalador": "https://github.com/Jeyjey011/LA-JEY-IA/releases/download/v1.91.0/LANDING-AI-instalador-1.91.0.zip",
+  "instaladorBytes": 165863169
 }
